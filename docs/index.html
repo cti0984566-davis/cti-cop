@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CTI COP</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #111;
+      color: #eee;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #1e1e1e;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #222;
+    }
+
+    tr:nth-child(even) {
+      background-color: #181818;
+    }
+
+    .high {
+      color: #ff5c5c;
+      font-weight: bold;
+    }
+
+    .medium {
+      color: #ffd166;
+    }
+
+    .low {
+      color: #06d6a0;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>CTI COP</h1>
+
+<p id="date"></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>属性</th>
+      <th>アクター</th>
+      <th>カテゴリ</th>
+      <th>戦略意図</th>
+      <th>日本にとっての重要性</th>
+      <th>最新の主要活動</th>
+      <th>情報源</th>
+    </tr>
+  </thead>
+
+  <tbody id="table-body"></tbody>
+</table>
+
+<script src="app.js"></script>
+
+</body>
+</html>
