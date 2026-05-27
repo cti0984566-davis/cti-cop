@@ -1,14 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "CTI COP Schema v0.1",
+  "title": "CTI COP Schema v0.2",
   "type": "object",
-  "required": [
-    "date",
-    "actors"
-  ],
+  "required": ["date", "actors"],
+  "additionalProperties": false,
   "properties": {
     "date": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     },
     "actors": {
       "type": "array",
@@ -21,31 +20,43 @@
           "戦略意図",
           "日本にとっての重要性",
           "最新の主要活動",
+          "ステータス",
           "情報源"
         ],
+        "additionalProperties": false,
         "properties": {
           "属性": {
-            "type": "string"
+            "type": "string",
+            "enum": ["China", "Russia", "DPRK", "Iran", "Other", "Criminal"]
           },
           "アクター": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "カテゴリ": {
-            "type": "string"
+            "type": "string",
+            "enum": ["侵入、永続化", "機密情報窃取", "破壊型活動", "経済犯罪"]
           },
           "戦略意図": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "日本にとっての重要性": {
-            "type": "string"
+            "type": "string",
+            "enum": ["High", "Medium", "Low"]
           },
           "最新の主要活動": {
             "type": "string"
           },
+          "ステータス": {
+            "type": "string",
+            "minLength": 1
+          },
           "情報源": {
             "type": "array",
             "items": {
-              "type": "string"
+              "type": "string",
+              "minLength": 1
             }
           }
         }

@@ -32,7 +32,7 @@ fetch(DATA_URL)
 
     data.actors.forEach((actor) => {
       const sources = Array.isArray(actor["情報源"])
-        ? actor["情報源"].join(", ")
+        ? actor["情報源"].join(" / ")
         : "";
 
       const tr = document.createElement("tr");
@@ -46,6 +46,7 @@ fetch(DATA_URL)
           ${escapeHtml(actor["日本にとっての重要性"])}
         </td>
         <td>${escapeHtml(actor["最新の主要活動"])}</td>
+        <td>${escapeHtml(actor["ステータス"])}</td>
         <td>${escapeHtml(sources)}</td>
       `;
 
