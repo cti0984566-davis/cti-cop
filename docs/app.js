@@ -1,4 +1,4 @@
-const DATA_URL = "../data/latest.json";
+const DATA_URL = "./data/latest.json";
 
 function escapeHtml(value) {
   return String(value ?? "")
