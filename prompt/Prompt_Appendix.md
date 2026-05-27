@@ -2,40 +2,382 @@
 
 【JSON例】
 {
-  "date": "2026-05-21",
+  "date": "2026-05-27",
   "actors": [
-    {"属性":"China","アクター":"China-linked Covert Network Ops","カテゴリ":"侵入、永続化","戦略意図":"Pre-positioning / covert infrastructure","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"Volt Typhoon","カテゴリ":"侵入、永続化","戦略意図":"Critical infrastructure persistence","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"Flax Typhoon","カテゴリ":"侵入、永続化","戦略意図":"SOHO/IoT relay network","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"Salt Typhoon","カテゴリ":"機密情報窃取","戦略意図":"Telecom persistence","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"TA416 / Mustang Panda","カテゴリ":"機密情報窃取","戦略意図":"APAC military espionage","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"APT41","カテゴリ":"機密情報窃取","戦略意図":"Supply chain / software targeting","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"APT10","カテゴリ":"機密情報窃取","戦略意図":"Cloud/MSP compromise","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"Tonto Team","カテゴリ":"機密情報窃取","戦略意図":"Defense intelligence collection","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"Tropic Trooper","カテゴリ":"機密情報窃取","戦略意図":"Government / high-tech targeting","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"China","アクター":"APT27","カテゴリ":"機密情報窃取","戦略意図":"Government targeting","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Russia","アクター":"APT28","カテゴリ":"機密情報窃取","戦略意図":"Political / military espionage","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"Russia","アクター":"APT29","カテゴリ":"機密情報窃取","戦略意図":"Long-term cloud persistence","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"Russia","アクター":"Sandworm","カテゴリ":"破壊型活動","戦略意図":"OT disruption","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"Russia","アクター":"Turla","カテゴリ":"機密情報窃取","戦略意図":"Long-term diplomatic espionage","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Russia","アクター":"Gamaredon","カテゴリ":"破壊型活動","戦略意図":"Regional reconnaissance","日本にとっての重要性":"Low","最新の主要活動":"","情報源":[]},
-    {"属性":"Russia","アクター":"Berserk Bear","カテゴリ":"侵入、永続化","戦略意図":"Energy sector targeting","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"DPRK","アクター":"Lazarus Group","カテゴリ":"経済犯罪","戦略意図":"Crypto theft / defense targeting","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"DPRK","アクター":"Kimsuky","カテゴリ":"機密情報窃取","戦略意図":"Think tank / academia targeting","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"DPRK","アクター":"APT37","カテゴリ":"機密情報窃取","戦略意図":"Reconnaissance","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"DPRK","アクター":"Andariel","カテゴリ":"侵入、永続化","戦略意図":"Military targeting","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Iran","アクター":"MuddyWater","カテゴリ":"侵入、永続化","戦略意図":"Persistence / MFA manipulation","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Iran","アクター":"Charming Kitten / APT35","カテゴリ":"侵入、永続化","戦略意図":"Persona ops / phishing","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Iran","アクター":"APT33","カテゴリ":"破壊型活動","戦略意図":"Energy / aviation targeting","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Iran","アクター":"APT34 / OilRig","カテゴリ":"侵入、永続化","戦略意図":"Middle East persistence ops","日本にとっての重要性":"Low","最新の主要活動":"","情報源":[]},
-    {"属性":"Iran","アクター":"Pioneer Kitten","カテゴリ":"侵入、永続化","戦略意図":"Ransomware ecosystem overlap","日本にとっての重要性":"Low","最新の主要活動":"","情報源":[]},
-    {"属性":"Other","アクター":"Transparent Tribe","カテゴリ":"機密情報窃取","戦略意図":"South Asia military targeting","日本にとっての重要性":"Low","最新の主要活動":"","情報源":[]},
-    {"属性":"Other","アクター":"SideCopy","カテゴリ":"機密情報窃取","戦略意図":"Defense targeting","日本にとっての重要性":"Low","最新の主要活動":"","情報源":[]},
-    {"属性":"Criminal","アクター":"FIN7","カテゴリ":"経済犯罪","戦略意図":"Enterprise intrusion","日本にとっての重要性":"Medium","最新の主要活動":"","情報源":[]},
-    {"属性":"Criminal","アクター":"Scattered Spider","カテゴリ":"機密情報窃取","戦略意図":"Social engineering","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]},
-    {"属性":"Criminal","アクター":"LockBit Ecosystem","カテゴリ":"破壊型活動","戦略意図":"Access ecosystem","日本にとっての重要性":"High","最新の主要活動":"","情報源":[]}
+    {
+      "属性": "China",
+      "アクター": "China-linked Covert Network Ops",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Pre-positioning / covert infrastructure",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "2026年4月、CISA等が中国系アクターによる侵害済みSOHO/IoT機器を用いた秘匿ネットワーク運用への対処勧告を公開。",
+      "ステータス": "継続（最終観測: 2026年4月）",
+      "情報源": [
+        "CISA - Defending Against China-Nexus Covert Networks of Compromised Devices - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "Volt Typhoon",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Critical infrastructure persistence",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "最近大きな新規公開活動なし。重要インフラへの事前配置、Living-off-the-Land型潜伏、危機時の妨害可能性について継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "CISA - PRC State-Sponsored Actors Compromise Critical Infrastructure - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+        "Microsoft - Volt Typhoon targets US critical infrastructure - https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "Flax Typhoon",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "SOHO/IoT relay network",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "最近大きな新規公開活動なし。台湾関連組織への長期潜伏と、SOHO/IoT機器を用いた秘匿中継基盤構築リスクを継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "Microsoft - Flax Typhoon using legitimate software to quietly access Taiwanese organizations - https://www.microsoft.com/en-us/security/blog/2023/08/24/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations/"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "Salt Typhoon",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Telecom persistence",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "通信事業者・ネットワーク機器侵害への継続警戒。通信インフラへの永続化、情報収集、アクセス維持リスクを継続監視。",
+      "ステータス": "継続（最終観測: 2025年8月）",
+      "情報源": [
+        "CISA - Countering Chinese State-Sponsored Actors Compromise of Networks - https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "TA416 / Mustang Panda",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "APAC military espionage",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "2026年4月、Proofpointが欧州政府・外交機関向け活動再開を報告。Cloudflare Turnstile、OAuthリダイレクト、更新型PlugX利用を確認。",
+      "ステータス": "継続（最終観測: 2026年4月）",
+      "情報源": [
+        "Proofpoint - TA416 resumes European government espionage - https://www.proofpoint.com/us/blog/threat-insight/id-come-running-back-eu-again-ta416-resumes-european-government-espionage"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "APT41",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Supply chain / software targeting",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "最近大きな新規公開活動なし。物流、通信、ソフトウェア、サプライチェーン関連組織への侵入リスクを継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "SecurityWeek - Chinese Hacking Group APT41 Infiltrates Global Shipping and Tech Sectors - https://www.securityweek.com/chinese-hacking-group-apt41-infiltrates-global-shipping-and-tech-sectors-mandiant-warns/",
+        "MITRE ATT&CK - APT41 - https://attack.mitre.org/groups/G0096/"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "APT10",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Cloud/MSP compromise",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "最近大きな公開活動なし。クラウド、MSP、委託先経由の侵害リスクとして継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "CISA - Chinese State-Sponsored Cyber Operations - https://www.cisa.gov/topics/cyber-threats-and-advisories/advanced-persistent-threats/china",
+        "MITRE ATT&CK - APT10 - https://attack.mitre.org/groups/G0045/"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "Tonto Team",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Defense intelligence collection",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動未確認。アジアの防衛・政府・外交関連組織への情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Tonto Team - https://attack.mitre.org/groups/G0131/"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "Tropic Trooper",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Government / high-tech targeting",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動未確認。台湾、政府、ハイテク、通信関連標的への継続リスクを監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Tropic Trooper - https://attack.mitre.org/groups/G0081/"
+      ]
+    },
+    {
+      "属性": "China",
+      "アクター": "APT27",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Government targeting",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動未確認。政府、研究機関、重要産業への標的型侵入活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - APT27 - https://attack.mitre.org/groups/G0027/"
+      ]
+    },
+    {
+      "属性": "Russia",
+      "アクター": "APT28",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Political / military espionage",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "2026年4月、NCSCおよびFBI等がAPT28によるSOHOルータ悪用、DNSハイジャック、Microsoft 365認証情報窃取活動を公表。",
+      "ステータス": "継続（最終観測: 2026年4月）",
+      "情報源": [
+        "NCSC UK - APT28 exploit routers to enable DNS hijacking operations - https://www.ncsc.gov.uk/news/apt28-exploit-routers-to-enable-dns-hijacking-operations",
+        "FBI IC3 - Russian GRU Exploiting Vulnerable Routers to Steal Credentials - https://www.ic3.gov/PSA/2026/PSA260407"
+      ]
+    },
+    {
+      "属性": "Russia",
+      "アクター": "APT29",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Long-term cloud persistence",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "2026年、MandiantがAPT29対策としてMicrosoft 365環境の修復・ハードニングガイドを公開。クラウドID基盤への長期潜伏リスクを継続監視。",
+      "ステータス": "継続（最終観測: 2026年2月）",
+      "情報源": [
+        "Google Cloud Community - Remediation and Hardening for Microsoft 365: Defending Against APT29 - https://security.googlecloudcommunity.com/hardening-guides-82/strategy-guide-remediation-and-hardening-for-microsoft-365-defending-against-apt29-6801"
+      ]
+    },
+    {
+      "属性": "Russia",
+      "アクター": "Sandworm",
+      "カテゴリ": "破壊型活動",
+      "戦略意図": "OT disruption",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "最近大きな新規公開活動なし。ウクライナ関連OT・重要インフラ破壊能力を背景に、電力・通信・交通分野への波及リスクを継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "CISA - Sandworm Team and Cyclops Blink Malware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-054a",
+        "MITRE ATT&CK - Sandworm Team - https://attack.mitre.org/groups/G0034/"
+      ]
+    },
+    {
+      "属性": "Russia",
+      "アクター": "Turla",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Long-term diplomatic espionage",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動未確認。外交・政府機関向け長期潜伏型スパイ活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Turla - https://attack.mitre.org/groups/G0010/"
+      ]
+    },
+    {
+      "属性": "Russia",
+      "アクター": "Gamaredon",
+      "カテゴリ": "破壊型活動",
+      "戦略意図": "Regional reconnaissance",
+      "日本にとっての重要性": "Low",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。ウクライナ関連の偵察・フィッシング活動を中心に継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Gamaredon Group - https://attack.mitre.org/groups/G0047/"
+      ]
+    },
+    {
+      "属性": "Russia",
+      "アクター": "Berserk Bear",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Energy sector targeting",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動なし。エネルギー・重要インフラ分野への標的型アクセス作戦として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Berserk Bear - https://attack.mitre.org/groups/G0115/"
+      ]
+    },
+    {
+      "属性": "DPRK",
+      "アクター": "Lazarus Group",
+      "カテゴリ": "経済犯罪",
+      "戦略意図": "Crypto theft / defense targeting",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "2026年、macOS向け侵入チェーンや暗号資産・開発者標的活動が継続報告。暗号資産、FinTech、開発者環境への警戒が必要。",
+      "ステータス": "継続（最終観測: 2026年4月）",
+      "情報源": [
+        "ANY.RUN - New Lazarus APT Campaign: Mach-O Man macOS Malware Kit Hits Businesses - https://any.run/cybersecurity-blog/lazarus-macos-malware-mach-o-man/",
+        "MITRE ATT&CK - Lazarus Group - https://attack.mitre.org/groups/G0032/"
+      ]
+    },
+    {
+      "属性": "DPRK",
+      "アクター": "Kimsuky",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Think tank / academia targeting",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。シンクタンク、研究者、外交・安全保障関係者へのスピアフィッシング活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "CISA - North Korea Cyber Threat Overview and Advisories - https://www.cisa.gov/topics/cyber-threats-and-advisories/advanced-persistent-threats/north-korea",
+        "MITRE ATT&CK - Kimsuky - https://attack.mitre.org/groups/G0094/"
+      ]
+    },
+    {
+      "属性": "DPRK",
+      "アクター": "APT37",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Reconnaissance",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動未確認。朝鮮半島・周辺国の政府、報道、研究者向け偵察・情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - APT37 - https://attack.mitre.org/groups/G0067/"
+      ]
+    },
+    {
+      "属性": "DPRK",
+      "アクター": "Andariel",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Military targeting",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動なし。軍事・防衛・研究機関を対象とする侵入、永続化、情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Andariel - https://attack.mitre.org/groups/G0138/"
+      ]
+    },
+    {
+      "属性": "Iran",
+      "アクター": "MuddyWater",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Persistence / MFA manipulation",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。中東関連組織への侵入、永続化、認証悪用型活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - MuddyWater - https://attack.mitre.org/groups/G0069/"
+      ]
+    },
+    {
+      "属性": "Iran",
+      "アクター": "Charming Kitten / APT35",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Persona ops / phishing",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。研究者、外交関係者、政策関係者へのペルソナ運用型フィッシングとして継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "Google Threat Analysis Group - Iran-linked phishing campaigns - https://blog.google/threat-analysis-group/",
+        "MITRE ATT&CK - Magic Hound - https://attack.mitre.org/groups/G0059/"
+      ]
+    },
+    {
+      "属性": "Iran",
+      "アクター": "APT33",
+      "カテゴリ": "破壊型活動",
+      "戦略意図": "Energy / aviation targeting",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動なし。エネルギー、航空、重要インフラ分野への情報窃取・破壊型能力保持に警戒。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - APT33 - https://attack.mitre.org/groups/G0064/"
+      ]
+    },
+    {
+      "属性": "Iran",
+      "アクター": "APT34 / OilRig",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Middle East persistence ops",
+      "日本にとっての重要性": "Low",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。中東政府・エネルギー関連組織への侵入、永続化、情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - OilRig - https://attack.mitre.org/groups/G0049/"
+      ]
+    },
+    {
+      "属性": "Iran",
+      "アクター": "Pioneer Kitten",
+      "カテゴリ": "侵入、永続化",
+      "戦略意図": "Ransomware ecosystem overlap",
+      "日本にとっての重要性": "Low",
+      "最新の主要活動": "最近大きな公開活動なし。イラン系アクセスブローカー活動およびランサムウェア・エコシステムとの重複リスクとして継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "CISA - Iranian Cyber Actors Targeting Personal Accounts to Support Operations - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
+        "MITRE ATT&CK - Fox Kitten - https://attack.mitre.org/groups/G0117/"
+      ]
+    },
+    {
+      "属性": "Other",
+      "アクター": "Transparent Tribe",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "South Asia military targeting",
+      "日本にとっての重要性": "Low",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。南アジアの軍事・政府関連標的への情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - Transparent Tribe - https://attack.mitre.org/groups/G0134/"
+      ]
+    },
+    {
+      "属性": "Other",
+      "アクター": "SideCopy",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Defense targeting",
+      "日本にとっての重要性": "Low",
+      "最新の主要活動": "最近大きな日本関連公開活動なし。防衛関連標的向けの情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - SideCopy - https://attack.mitre.org/groups/G1008/"
+      ]
+    },
+    {
+      "属性": "Criminal",
+      "アクター": "FIN7",
+      "カテゴリ": "経済犯罪",
+      "戦略意図": "Enterprise intrusion",
+      "日本にとっての重要性": "Medium",
+      "最新の主要活動": "最近大きな公開活動なし。企業侵入、認証情報窃取、ランサムウェア連携に関わる犯罪エコシステムとして継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "MITRE ATT&CK - FIN7 - https://attack.mitre.org/groups/G0046/"
+      ]
+    },
+    {
+      "属性": "Criminal",
+      "アクター": "Scattered Spider",
+      "カテゴリ": "機密情報窃取",
+      "戦略意図": "Social engineering",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "2025〜2026年もヘルプデスク悪用、SIMスワップ、MFA疲労攻撃、認証情報窃取を用いた企業侵入リスクが継続。",
+      "ステータス": "継続（最終観測: 2026年5月27日）",
+      "情報源": [
+        "CISA - Scattered Spider Cybersecurity Advisory - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
+        "MITRE ATT&CK - Scattered Spider - https://attack.mitre.org/groups/G1015/"
+      ]
+    },
+    {
+      "属性": "Criminal",
+      "アクター": "LockBit Ecosystem",
+      "カテゴリ": "破壊型活動",
+      "戦略意図": "Access ecosystem",
+      "日本にとっての重要性": "High",
+      "最新の主要活動": "法執行機関による摘発後も、関連アフィリエイト、初期アクセス、後継ランサムウェア活動への分散が続くリスクを継続監視。",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
+      "情報源": [
+        "Europol - Operation Cronos: LockBit disruption - https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-disrupt-worlds-biggest-ransomware-operation",
+        "CISA - LockBit 3.0 Ransomware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a"
+      ]
+    }
   ]
 }
+
 
 【schema】
 {

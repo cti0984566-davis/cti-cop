@@ -7,7 +7,7 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Pre-positioning / covert infrastructure",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年4月、CISA等が中国系アクターによる侵害済みSOHO/IoT機器を用いた秘匿ネットワーク運用への対処勧告を公開。日本の重要インフラ、通信、委託先ネットワークへの迂回侵入リスクとして継続監視。",
+      "最新の主要活動": "2026年4月、CISA等が中国系アクターによる侵害済みSOHO/IoT機器を用いた秘匿ネットワーク運用への対処勧告を公開。",
       "ステータス": "継続（最終観測: 2026年4月）",
       "情報源": [
         "CISA - Defending Against China-Nexus Covert Networks of Compromised Devices - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a"
@@ -59,7 +59,7 @@
       "最新の主要活動": "2026年4月、Proofpointが欧州政府・外交機関向け活動再開を報告。Cloudflare Turnstile、OAuthリダイレクト、更新型PlugX利用を確認。",
       "ステータス": "継続（最終観測: 2026年4月）",
       "情報源": [
-        "Proofpoint - I’d Come Running Back EU Again: TA416 Resumes European Government Espionage - https://www.proofpoint.com/us/blog/threat-insight/id-come-running-back-eu-again-ta416-resumes-european-government-espionage"
+        "Proofpoint - TA416 resumes European government espionage - https://www.proofpoint.com/us/blog/threat-insight/id-come-running-back-eu-again-ta416-resumes-european-government-espionage"
       ]
     },
     {
@@ -311,19 +311,6 @@
       ]
     },
     {
-      "属性": "Iran",
-      "アクター": "Ababil of Minab",
-      "カテゴリ": "破壊型活動",
-      "戦略意図": "Hacktivist-front disruption / public infrastructure targeting",
-      "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年5月、Gambit Securityが2026年3月のLos Angeles County Metropolitan Transportation Authority侵害をAbabil of Minabに関連付け。少なくとも700GBのデータ窃取、バックアップ・メール等の漏洩、交通機関・公共インフラ標的化が報告された。",
-      "ステータス": "新規（最終観測: 2026年5月）",
-      "情報源": [
-        "Reuters - Iranian hackers responsible for Los Angeles transit system breach, Israeli researchers say - https://www.reuters.com/legal/litigation/iranian-hackers-responsible-los-angeles-transit-system-breach-israeli-2026-05-26/",
-        "TechCrunch - Iranian hackers blamed for breach of Los Angeles transit system that took weeks to recover - https://techcrunch.com/2026/05/26/iranian-hackers-blamed-for-breach-of-los-angeles-transit-system-that-took-weeks-to-recover/"
-      ]
-    },
-    {
       "属性": "Other",
       "アクター": "Transparent Tribe",
       "カテゴリ": "機密情報窃取",
@@ -383,33 +370,6 @@
       "情報源": [
         "Europol - Operation Cronos: LockBit disruption - https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-disrupt-worlds-biggest-ransomware-operation",
         "CISA - LockBit 3.0 Ransomware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a"
-      ]
-    },
-    {
-      "属性": "Criminal",
-      "アクター": "Silent Ransom Group / Luna Moth",
-      "カテゴリ": "経済犯罪",
-      "戦略意図": "Data theft extortion / legal-sector targeting",
-      "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年5月、FBIが米法律事務所を標的とするSRGの活動を警告。IT担当者を装う電話・メールに加え、失敗時には人物を現地に送ってUSB等を接続し、データ窃取を試みる対面型ソーシャルエンジニアリングを確認。",
-      "ステータス": "新規（最終観測: 2026年5月）",
-      "情報源": [
-        "FBI - Silent Ransom Group Targeting Law Firms - https://www.fbi.gov/file-repository/cyber-alerts/silent-ransom-group-targeting-law-firms-052325.pdf/view",
-        "CyberScoop - FBI warns US-based law firms to be on the lookout for cybercrime group that steals data in person - https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/"
-      ]
-    },
-    {
-      "属性": "Criminal",
-      "アクター": "GlassWorm",
-      "カテゴリ": "サプライチェーン攻撃",
-      "戦略意図": "Developer credential theft / OSS supply chain compromise",
-      "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年5月26日、CrowdStrike、Google、ShadowserverがGlassWormボットネットの4系統C2を同時遮断。2025年以降、盗難開発者認証情報、悪性拡張機能、汚染パッケージを通じて300超のGitHubリポジトリを汚染したと報告。",
-      "ステータス": "新規（最終観測: 2026年5月）",
-      "情報源": [
-        "CrowdStrike - Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet - https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
-        "The Hacker News - GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure - https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-        "CyberScoop - CrowdStrike disrupts Glassworm botnet that preyed on open-source supply chain - https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/"
       ]
     }
   ]
