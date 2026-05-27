@@ -1,38 +1,60 @@
-fetch("../data/latest.json")
-  .then(response => response.json())
-  .then(data => {
+const DATA_URL = "../data/latest.json";
 
-    document.getElementById("date").innerText =
-      "最終更新: " + data.date;
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
 
-    const tableBody = document.getElementById("table-body");
+function importanceClass(value) {
+  if (value === "High") return "importance-high";
+  if (value === "Medium") return "importance-medium";
+  if (value === "Low") return "importance-low";
+  return "";
+}
 
-    data.actors.forEach(actor => {
+fetch(DATA_URL)
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`JSON読み込み失敗: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then((data) => {
+    document.getElementById("last-updated").textContent =
+      `最終更新日: ${data.date}`;
 
-      let importanceClass = "";
+    const tbody = document.getElementById("actor-table-body");
+    tbody.innerHTML = "";
 
-      if (actor["日本にとっての重要性"] === "High") {
-        importanceClass = "high";
-      } else if (actor["日本にとっての重要性"] === "Medium") {
-        importanceClass = "medium";
-      } else {
-        importanceClass = "low";
-      }
+    data.actors.forEach((actor) => {
+      const sources = Array.isArray(actor["情報源"])
+        ? actor["情報源"].join(", ")
+        : "";
 
-      const row = `
-        <tr>
-          <td>${actor["属性"]}</td>
-          <td>${actor["アクター"]}</td>
-          <td>${actor["カテゴリ"]}</td>
-          <td>${actor["戦略意図"]}</td>
-          <td class="${importanceClass}">
-            ${actor["日本にとっての重要性"]}
-          </td>
-          <td>${actor["最新の主要活動"]}</td>
-          <td>${actor["情報源"].join(", ")}</td>
-        </tr>
+      const tr = document.createElement("tr");
+
+      tr.innerHTML = `
+        <td>${escapeHtml(actor["属性"])}</td>
+        <td class="actor-name">${escapeHtml(actor["アクター"])}</td>
+        <td>${escapeHtml(actor["カテゴリ"])}</td>
+        <td>${escapeHtml(actor["戦略意図"])}</td>
+        <td class="${importanceClass(actor["日本にとっての重要性"])}">
+          ${escapeHtml(actor["日本にとっての重要性"])}
+        </td>
+        <td>${escapeHtml(actor["最新の主要活動"])}</td>
+        <td>${escapeHtml(sources)}</td>
       `;
 
-      tableBody.innerHTML += row;
+      tbody.appendChild(tr);
     });
+  })
+  .catch((error) => {
+    document.body.insertAdjacentHTML(
+      "beforeend",
+      `<p class="error">エラー: ${escapeHtml(error.message)}</p>`
+    );
   });
