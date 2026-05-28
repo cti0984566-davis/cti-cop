@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-27",
   "actors": [
     {
       "属性": "China",
@@ -20,7 +20,7 @@
       "戦略意図": "Critical infrastructure persistence",
       "日本にとっての重要性": "High",
       "最新の主要活動": "最近大きな新規公開活動なし。重要インフラへの事前配置、Living-off-the-Land型潜伏、危機時の妨害可能性について継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "CISA - PRC State-Sponsored Actors Compromise Critical Infrastructure - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
         "Microsoft - Volt Typhoon targets US critical infrastructure - https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
@@ -33,7 +33,7 @@
       "戦略意図": "SOHO/IoT relay network",
       "日本にとっての重要性": "High",
       "最新の主要活動": "最近大きな新規公開活動なし。台湾関連組織への長期潜伏と、SOHO/IoT機器を用いた秘匿中継基盤構築リスクを継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "Microsoft - Flax Typhoon using legitimate software to quietly access Taiwanese organizations - https://www.microsoft.com/en-us/security/blog/2023/08/24/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations/"
       ]
@@ -54,7 +54,7 @@
       "属性": "China",
       "アクター": "TA416 / Mustang Panda",
       "カテゴリ": "機密情報窃取",
-      "戦略意図": "APAC / European diplomatic espionage",
+      "戦略意図": "APAC military espionage",
       "日本にとっての重要性": "High",
       "最新の主要活動": "2026年4月、Proofpointが欧州政府・外交機関向け活動再開を報告。Cloudflare Turnstile、OAuthリダイレクト、更新型PlugX利用を確認。",
       "ステータス": "継続（最終観測: 2026年4月）",
@@ -69,7 +69,7 @@
       "戦略意図": "Supply chain / software targeting",
       "日本にとっての重要性": "High",
       "最新の主要活動": "最近大きな新規公開活動なし。物流、通信、ソフトウェア、サプライチェーン関連組織への侵入リスクを継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "SecurityWeek - Chinese Hacking Group APT41 Infiltrates Global Shipping and Tech Sectors - https://www.securityweek.com/chinese-hacking-group-apt41-infiltrates-global-shipping-and-tech-sectors-mandiant-warns/",
         "MITRE ATT&CK - APT41 - https://attack.mitre.org/groups/G0096/"
@@ -82,7 +82,7 @@
       "戦略意図": "Cloud/MSP compromise",
       "日本にとっての重要性": "High",
       "最新の主要活動": "最近大きな公開活動なし。クラウド、MSP、委託先経由の侵害リスクとして継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "CISA - Chinese State-Sponsored Cyber Operations - https://www.cisa.gov/topics/cyber-threats-and-advisories/advanced-persistent-threats/china",
         "MITRE ATT&CK - APT10 - https://attack.mitre.org/groups/G0045/"
@@ -95,7 +95,7 @@
       "戦略意図": "Defense intelligence collection",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動未確認。アジアの防衛・政府・外交関連組織への情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Tonto Team - https://attack.mitre.org/groups/G0131/"
       ]
@@ -107,7 +107,7 @@
       "戦略意図": "Government / high-tech targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動未確認。台湾、政府、ハイテク、通信関連標的への継続リスクを監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Tropic Trooper - https://attack.mitre.org/groups/G0081/"
       ]
@@ -119,7 +119,7 @@
       "戦略意図": "Government targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動未確認。政府、研究機関、重要産業への標的型侵入活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - APT27 - https://attack.mitre.org/groups/G0027/"
       ]
@@ -156,7 +156,7 @@
       "戦略意図": "OT disruption",
       "日本にとっての重要性": "High",
       "最新の主要活動": "最近大きな新規公開活動なし。ウクライナ関連OT・重要インフラ破壊能力を背景に、電力・通信・交通分野への波及リスクを継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "CISA - Sandworm Team and Cyclops Blink Malware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-054a",
         "MITRE ATT&CK - Sandworm Team - https://attack.mitre.org/groups/G0034/"
@@ -169,7 +169,7 @@
       "戦略意図": "Long-term diplomatic espionage",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動未確認。外交・政府機関向け長期潜伏型スパイ活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Turla - https://attack.mitre.org/groups/G0010/"
       ]
@@ -177,11 +177,11 @@
     {
       "属性": "Russia",
       "アクター": "Gamaredon",
-      "カテゴリ": "機密情報窃取",
+      "カテゴリ": "破壊型活動",
       "戦略意図": "Regional reconnaissance",
       "日本にとっての重要性": "Low",
       "最新の主要活動": "最近大きな日本関連公開活動なし。ウクライナ関連の偵察・フィッシング活動を中心に継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Gamaredon Group - https://attack.mitre.org/groups/G0047/"
       ]
@@ -193,23 +193,9 @@
       "戦略意図": "Energy sector targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動なし。エネルギー・重要インフラ分野への標的型アクセス作戦として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Berserk Bear - https://attack.mitre.org/groups/G0115/"
-      ]
-    },
-    {
-      "属性": "Russia",
-      "アクター": "GreyVibe",
-      "カテゴリ": "機密情報窃取",
-      "戦略意図": "AI-enabled Ukraine-focused intrusion / cybercrime-state overlap",
-      "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年5月、WithSecureが未文書化のロシア語話者系アクターGreyVibeを報告。2025年9月から2026年4月にかけ、ウクライナ政府・軍関連組織を標的に、生成AIで偽サイト、ルアー、マルウェア、ポスト侵害ツールを生成したと分析。",
-      "ステータス": "新規（最終観測: 2026年5月）",
-      "情報源": [
-        "WithSecure - GREYVIBE: AI-enabled cyber operations against Ukraine - https://www.withsecure.com/en/expertise/resources/greyvibe",
-        "SecurityWeek - Russia-Linked GreyVibe Attackers Use AI to Supercharge Cyberattacks - https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/",
-        "マイナビ TECH+ - AIで進化するサイバー攻撃、ウクライナを標的にしたロシア系脅威アクターGREYVIBE - https://news.mynavi.jp/techplus/article/20260527-4510555/"
       ]
     },
     {
@@ -232,7 +218,7 @@
       "戦略意図": "Think tank / academia targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな日本関連公開活動なし。シンクタンク、研究者、外交・安全保障関係者へのスピアフィッシング活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "CISA - North Korea Cyber Threat Overview and Advisories - https://www.cisa.gov/topics/cyber-threats-and-advisories/advanced-persistent-threats/north-korea",
         "MITRE ATT&CK - Kimsuky - https://attack.mitre.org/groups/G0094/"
@@ -245,7 +231,7 @@
       "戦略意図": "Reconnaissance",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動未確認。朝鮮半島・周辺国の政府、報道、研究者向け偵察・情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - APT37 - https://attack.mitre.org/groups/G0067/"
       ]
@@ -257,7 +243,7 @@
       "戦略意図": "Military targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動なし。軍事・防衛・研究機関を対象とする侵入、永続化、情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Andariel - https://attack.mitre.org/groups/G0138/"
       ]
@@ -269,7 +255,7 @@
       "戦略意図": "Persistence / MFA manipulation",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな日本関連公開活動なし。中東関連組織への侵入、永続化、認証悪用型活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - MuddyWater - https://attack.mitre.org/groups/G0069/"
       ]
@@ -277,11 +263,11 @@
     {
       "属性": "Iran",
       "アクター": "Charming Kitten / APT35",
-      "カテゴリ": "機密情報窃取",
+      "カテゴリ": "侵入、永続化",
       "戦略意図": "Persona ops / phishing",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな日本関連公開活動なし。研究者、外交関係者、政策関係者へのペルソナ運用型フィッシングとして継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "Google Threat Analysis Group - Iran-linked phishing campaigns - https://blog.google/threat-analysis-group/",
         "MITRE ATT&CK - Magic Hound - https://attack.mitre.org/groups/G0059/"
@@ -294,7 +280,7 @@
       "戦略意図": "Energy / aviation targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動なし。エネルギー、航空、重要インフラ分野への情報窃取・破壊型能力保持に警戒。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - APT33 - https://attack.mitre.org/groups/G0064/"
       ]
@@ -306,7 +292,7 @@
       "戦略意図": "Middle East persistence ops",
       "日本にとっての重要性": "Low",
       "最新の主要活動": "最近大きな日本関連公開活動なし。中東政府・エネルギー関連組織への侵入、永続化、情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - OilRig - https://attack.mitre.org/groups/G0049/"
       ]
@@ -318,7 +304,7 @@
       "戦略意図": "Ransomware ecosystem overlap",
       "日本にとっての重要性": "Low",
       "最新の主要活動": "最近大きな公開活動なし。イラン系アクセスブローカー活動およびランサムウェア・エコシステムとの重複リスクとして継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "CISA - Iranian Cyber Actors Targeting Personal Accounts to Support Operations - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
         "MITRE ATT&CK - Fox Kitten - https://attack.mitre.org/groups/G0117/"
@@ -331,7 +317,7 @@
       "戦略意図": "Hacktivist-front disruption / public infrastructure targeting",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "2026年5月、Gambit Securityが2026年3月のLos Angeles County Metropolitan Transportation Authority侵害をAbabil of Minabに関連付け。少なくとも700GBのデータ窃取、バックアップ・メール等の漏洩、交通機関・公共インフラ標的化が報告された。",
-      "ステータス": "継続（最終観測: 2026年5月）",
+      "ステータス": "新規（最終観測: 2026年5月）",
       "情報源": [
         "Reuters - Iranian hackers responsible for Los Angeles transit system breach, Israeli researchers say - https://www.reuters.com/legal/litigation/iranian-hackers-responsible-los-angeles-transit-system-breach-israeli-2026-05-26/",
         "TechCrunch - Iranian hackers blamed for breach of Los Angeles transit system that took weeks to recover - https://techcrunch.com/2026/05/26/iranian-hackers-blamed-for-breach-of-los-angeles-transit-system-that-took-weeks-to-recover/"
@@ -344,7 +330,7 @@
       "戦略意図": "South Asia military targeting",
       "日本にとっての重要性": "Low",
       "最新の主要活動": "最近大きな日本関連公開活動なし。南アジアの軍事・政府関連標的への情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - Transparent Tribe - https://attack.mitre.org/groups/G0134/"
       ]
@@ -356,7 +342,7 @@
       "戦略意図": "Defense targeting",
       "日本にとっての重要性": "Low",
       "最新の主要活動": "最近大きな日本関連公開活動なし。防衛関連標的向けの情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - SideCopy - https://attack.mitre.org/groups/G1008/"
       ]
@@ -368,7 +354,7 @@
       "戦略意図": "Enterprise intrusion",
       "日本にとっての重要性": "Medium",
       "最新の主要活動": "最近大きな公開活動なし。企業侵入、認証情報窃取、ランサムウェア連携に関わる犯罪エコシステムとして継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "MITRE ATT&CK - FIN7 - https://attack.mitre.org/groups/G0046/"
       ]
@@ -377,10 +363,10 @@
       "属性": "Criminal",
       "アクター": "Scattered Spider",
       "カテゴリ": "機密情報窃取",
-      "戦略意図": "Social engineering / identity compromise",
+      "戦略意図": "Social engineering",
       "日本にとっての重要性": "High",
       "最新の主要活動": "2025〜2026年もヘルプデスク悪用、SIMスワップ、MFA疲労攻撃、認証情報窃取を用いた企業侵入リスクが継続。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終観測: 2026年5月27日）",
       "情報源": [
         "CISA - Scattered Spider Cybersecurity Advisory - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
         "MITRE ATT&CK - Scattered Spider - https://attack.mitre.org/groups/G1015/"
@@ -388,26 +374,12 @@
     },
     {
       "属性": "Criminal",
-      "アクター": "ShinyHunters",
-      "カテゴリ": "経済犯罪",
-      "戦略意図": "Data theft extortion / SaaS and enterprise account compromise",
-      "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年5月、Carnival Corporationが約599.5万人に影響するデータ侵害を公表。ShinyHuntersが犯行を主張し、従業員アカウントへのソーシャルエンジニアリングを起点とした個人情報窃取が報告された。Charter Communications関連でもShinyHuntersによる侵害主張が報道された。",
-      "ステータス": "新規（最終観測: 2026年5月）",
-      "情報源": [
-        "Reuters - Cruise operator Carnival discloses personal data breach - https://www.reuters.com/legal/litigation/cruise-operator-carnival-discloses-personal-data-breach-2026-05-27/",
-        "SecurityWeek - Carnival Data Breach Exposed 6 Million People - https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/",
-        "TechRadar - Charter Communications confirms data breach, ShinyHunters blamed after threat to leak user info online - https://www.techradar.com/pro/security/charter-communications-confirms-data-breach-shinyhunters-blamed-after-threat-to-leak-user-info-online"
-      ]
-    },
-    {
-      "属性": "Criminal",
       "アクター": "LockBit Ecosystem",
       "カテゴリ": "破壊型活動",
-      "戦略意図": "Access ecosystem / ransomware affiliate continuity",
+      "戦略意図": "Access ecosystem",
       "日本にとっての重要性": "High",
       "最新の主要活動": "法執行機関による摘発後も、関連アフィリエイト、初期アクセス、後継ランサムウェア活動への分散が続くリスクを継続監視。",
-      "ステータス": "継続（最終更新: 2026年5月28日）",
+      "ステータス": "継続（最終更新: 2026年5月27日）",
       "情報源": [
         "Europol - Operation Cronos: LockBit disruption - https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-disrupt-worlds-biggest-ransomware-operation",
         "CISA - LockBit 3.0 Ransomware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a"
@@ -420,7 +392,7 @@
       "戦略意図": "Data theft extortion / legal-sector targeting",
       "日本にとっての重要性": "High",
       "最新の主要活動": "2026年5月、FBIが米法律事務所を標的とするSRGの活動を警告。IT担当者を装う電話・メールに加え、失敗時には人物を現地に送ってUSB等を接続し、データ窃取を試みる対面型ソーシャルエンジニアリングを確認。",
-      "ステータス": "継続（最終観測: 2026年5月）",
+      "ステータス": "新規（最終観測: 2026年5月）",
       "情報源": [
         "FBI - Silent Ransom Group Targeting Law Firms - https://www.fbi.gov/file-repository/cyber-alerts/silent-ransom-group-targeting-law-firms-052325.pdf/view",
         "CyberScoop - FBI warns US-based law firms to be on the lookout for cybercrime group that steals data in person - https://cyberscoop.com/fbi-warning-silent-ransom-group-law-firms/"
@@ -432,12 +404,12 @@
       "カテゴリ": "サプライチェーン攻撃",
       "戦略意図": "Developer credential theft / OSS supply chain compromise",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年5月26日、CrowdStrike、Google、ShadowserverがGlassWormボットネットの4系統C2を同時遮断。2025年以降、VS Code拡張、Python/npmパッケージ、GitHubリポジトリを通じて開発者認証情報窃取とRAT配布を行ったと報告。",
-      "ステータス": "継続（最終観測: 2026年5月）",
+      "最新の主要活動": "2026年5月26日、CrowdStrike、Google、ShadowserverがGlassWormボットネットの4系統C2を同時遮断。2025年以降、盗難開発者認証情報、悪性拡張機能、汚染パッケージを通じて300超のGitHubリポジトリを汚染したと報告。",
+      "ステータス": "新規（最終観測: 2026年5月）",
       "情報源": [
-        "CrowdStrike - Disrupting Glassworm: Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet - https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
-        "TechCrunch - CrowdStrike and Google take down botnet used by hackers to target open source software developers - https://techcrunch.com/2026/05/27/crowdstrike-and-google-take-down-botnet-used-by-hackers-to-target-software-developers-in-supply-chain-attacks/",
-        "Cybersecurity Dive - Coordinated operation takes down Glassworm botnet - https://www.cybersecuritydive.com/news/takedown-glassworm-botnet-crowdstrike-Google-Shadowserver/821227/"
+        "CrowdStrike - Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet - https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
+        "The Hacker News - GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure - https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+        "CyberScoop - CrowdStrike disrupts Glassworm botnet that preyed on open-source supply chain - https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/"
       ]
     }
   ]
