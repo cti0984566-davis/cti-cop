@@ -56,12 +56,36 @@ tr:nth-child(even) {
 }
 
 .importance-medium {
-  color: #b45309;
+  color: #f59e0b;
   font-weight: 700;
 }
 
 .importance-low {
   color: #047857;
+  font-weight: 700;
+}
+
+.status-new {
+  background: #fee2e2;
+  color: #b91c1c;
+  font-weight: 700;
+}
+
+.status-changed {
+  background: #ffedd5;
+  color: #c2410c;
+  font-weight: 700;
+}
+
+.status-ongoing {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-weight: 700;
+}
+
+.status-inactive {
+  background: #e5e7eb;
+  color: #374151;
   font-weight: 700;
 }
 

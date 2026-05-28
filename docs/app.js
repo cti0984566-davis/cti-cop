@@ -16,6 +16,19 @@ function importanceClass(value) {
   return "";
 }
 
+function statusClass(value) {
+  const status = String(value ?? "");
+
+  if (status.includes("新規")) return "status-new";
+  if (status.includes("変化")) return "status-changed";
+  if (status.includes("継続")) return "status-ongoing";
+  if (status.includes("休止") || status.includes("停止") || status.includes("低調")) {
+    return "status-inactive";
+  }
+
+  return "";
+}
+
 fetch(DATA_URL)
   .then((response) => {
     if (!response.ok) {
@@ -46,7 +59,9 @@ fetch(DATA_URL)
           ${escapeHtml(actor["日本にとっての重要性"])}
         </td>
         <td>${escapeHtml(actor["最新の主要活動"])}</td>
-        <td>${escapeHtml(actor["ステータス"])}</td>
+        <td class="${statusClass(actor["ステータス"])}">
+          ${escapeHtml(actor["ステータス"])}
+        </td>
         <td>${escapeHtml(sources)}</td>
       `;
 
