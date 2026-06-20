@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-18",
   "actors": [
     {
       "属性": "China",
@@ -7,7 +7,7 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Pre-positioning / covert infrastructure / cyber reconnaissance",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月10日、Lumen Black Lotus Labsの分析として、Volt Typhoon等の中国系アクターとの関連が指摘されるJDYボットネットが1,500台超のSOHO/IoT機器に拡大し、米軍関連ネットワークを含む外部公開サービスの大規模偵察・指紋採取に利用されていると報道。Cisco、Ubiquiti、DrayTek、Hikvision等の機器が含まれ、バナー取得、TLS証明書収集、公開直後のCVE探索等を実施。2026年4月のNCSC、CISA、NSA、FBI、日本の国家サイバー統括室等による中国関連秘匿ネットワーク対処勧告とあわせ、日本の防衛、通信、重要インフラ、委託先ネットワークへの迂回侵入・事前配置リスクとして監視を強化。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月10日、Lumen Black Lotus Labsの分析として、Volt Typhoon等の中国系アクターとの関連が指摘されるJDYボットネットが1,500台超のSOHO/IoT機器に拡大し、米軍関連ネットワークを含む外部公開サービスの大規模偵察・指紋採取に利用されていると報道。Cisco、Ubiquiti、DrayTek、Hikvision等の機器が含まれ、バナー取得、TLS証明書収集、公開直後のCVE探索等を実施。2026年4月のNCSC、CISA、NSA、FBI、日本の国家サイバー統括室等による中国関連秘匿ネットワーク対処勧告とあわせ、日本の防衛、通信、重要インフラ、委託先ネットワークへの迂回侵入・事前配置リスクとして監視を強化。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "BleepingComputer - China-linked JDY botnet expands targeting of U.S. military networks - https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
@@ -23,7 +23,7 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Critical infrastructure persistence / authentication stack compromise",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月8日、Sygniaが中国関連アクターVelvet AntによるOperation Highlandを公表。隔離された内部ネットワークに少なくとも2016年頃から長期潜伏し、Linux PAMおよびOpenSSHを改ざんして認証フローの掌握、認証情報窃取、永続化を実施。インターネット非接続の重要ネットワークへ、信頼済みシステムを経由して到達し、SOCKS5プロキシ、Nginx/FastCGI、改ざん認証コンポーネントを組み合わせた stealth persistence を確認。境界機器侵害に加え、認証基盤そのものを永続化層として悪用する中国系長期潜伏事例として、日本の重要インフラ、防衛、通信、製造、隔離ネットワークでPAM/OpenSSH整合性監査を優先監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月8日、Sygniaが中国関連アクターVelvet AntによるOperation Highlandを公表。隔離された内部ネットワークに少なくとも2016年頃から長期潜伏し、Linux PAMおよびOpenSSHを改ざんして認証フローの掌握、認証情報窃取、永続化を実施。インターネット非接続の重要ネットワークへ、信頼済みシステムを経由して到達し、SOCKS5プロキシ、Nginx/FastCGI、改ざん認証コンポーネントを組み合わせた stealth persistence を確認。境界機器侵害に加え、認証基盤そのものを永続化層として悪用する中国系長期潜伏事例として、日本の重要インフラ、防衛、通信、製造、隔離ネットワークでPAM/OpenSSH整合性監査を優先監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Sygnia - Velvet Ant’s Operation Highland: How a China-Nexus Actor Infiltrated an Internal Network Undetected - https://www.sygnia.co/blog/operation-highland-velvet-ant/",
@@ -37,7 +37,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Taiwan / Europe-focused espionage",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年5月29日、Seqriteが中国関連キャンペーンOperation Dragon Weaveを公表。チェコ共和国および台湾の当局者・市民を標的に、公式文書を装ったルアー、LNK、PowerShell、RustローダーRUSTCLOAK、Adaptix C2エージェントAZUREVEILを用い、Microsoft Azure Blob StorageをC2に悪用。台湾関連政策・外交・研究・金融関係者を狙う第三国横断型キャンペーンとして継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年5月29日、Seqriteが中国関連キャンペーンOperation Dragon Weaveを公表。チェコ共和国および台湾の当局者・市民を標的に、公式文書を装ったルアー、LNK、PowerShell、RustローダーRUSTCLOAK、Adaptix C2エージェントAZUREVEILを用い、Microsoft Azure Blob StorageをC2に悪用。台湾関連政策・外交・研究・金融関係者を狙う第三国横断型キャンペーンとして継続監視。",
       "ステータス": "継続（最終観測: 2026年5月）",
       "情報源": [
         "Seqrite - Operation Dragon Weave: Uncovering a China-Linked Campaign Targeting Czech Republic and Taiwan Using Azure Cloud C2 - https://www.seqrite.com/blog/operation-dragon-weave-uncovering-a-china-linked-campaign-targeting-czech-republic-and-taiwan-using-azure-cloud-c2/",
@@ -51,7 +51,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "IIS server compromise / espionage",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月6日、ReliaQuestが中国関連と中〜高程度の確度で評価する新規クラスタOP-512を公表。侵害済みMicrosoft IISサーバーに暗号学的に一意なカスタムWeb shellフレームワークを展開し、DNSおよびHTTPによる通知チャネル、Potato系ツールによる権限昇格、複数アクセス経路の確立を確認。観測事例では約75日間の潜伏後にアクセス拡大を行っており、インターネット公開IISや旧式.NET Frameworkを持つ組織への諜報型侵入として継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月6日、ReliaQuestが中国関連と中〜高程度の確度で評価する新規クラスタOP-512を公表。侵害済みMicrosoft IISサーバーに暗号学的に一意なカスタムWeb shellフレームワークを展開し、DNSおよびHTTPによる通知チャネル、Potato系ツールによる権限昇格、複数アクセス経路の確立を確認。観測事例では約75日間の潜伏後にアクセス拡大を行っており、インターネット公開IISや旧式.NET Frameworkを持つ組織への諜報型侵入として継続監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "ReliaQuest - Threat Spotlight: ReliaQuest’s Agentic AI Uncovers New China-Linked Cluster OP-512 - https://reliaquest.com/blog/threat-spotlight-reliaquests-agentic-ai-uncovers-new-china-linked-cluster-op-512/",
@@ -65,7 +65,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Research, defense and AI intelligence collection / cloud email exfiltration",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月15日、Google Threat Intelligence Groupが中国関連サイバー諜報クラスタUNC6508の活動を公表。2023年9月から2025年11月にかけて、米国およびカナダの医療、学術、軍事研究機関を標的に、REDCapサーバーを侵害して認証情報を窃取し、Google Workspaceのメール転送ルールを悪用して防衛情報、インド太平洋軍事戦略、AI、無人システム、サイバー戦、医療研究に関するメールを攻撃者管理のGmailへ自動転送した。GoogleはUNC6508を高確度で中国関連と評価。日本の大学、医療研究、防衛研究、AI研究機関におけるREDCap、研究DB、Google Workspace / Microsoft 365転送ルール、OAuth権限の監査を優先監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月15日、Google Threat Intelligence Groupが中国関連サイバー諜報クラスタUNC6508の活動を公表。2023年9月から2025年11月にかけて、米国およびカナダの医療、学術、軍事研究機関を標的に、REDCapサーバーを侵害して認証情報を窃取し、Google Workspaceのメール転送ルールを悪用して防衛情報、インド太平洋軍事戦略、AI、無人システム、サイバー戦、医療研究に関するメールを攻撃者管理のGmailへ自動転送した。GoogleはUNC6508を高確度で中国関連と評価。日本の大学、医療研究、防衛研究、AI研究機関におけるREDCap、研究DB、Google Workspace / Microsoft 365転送ルール、OAuth権限の監査を優先監視。",
       "ステータス": "継続（最終観測: 2025年11月、公表: 2026年6月）",
       "情報源": [
         "Google Cloud - PRC-Linked Threat Actor Targets U.S. Medical Research Facilities - https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research",
@@ -81,7 +81,7 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Critical infrastructure persistence / pre-positioning",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点でVolt Typhoon本体による新規侵害の公開確認はない。2026年6月10日、Lumen Black Lotus Labsの分析として、Volt Typhoon等の中国系アクターと関連付けられてきたJDYボットネットが1,500台超に拡大し、米軍関連ネットワークを含む外部公開資産の偵察に用いられていると報道。2026年4月の国際共同アドバイザリーで示された侵害済みSOHO/IoT機器を用いた秘匿ネットワーク、Living-off-the-Land型潜伏、危機時の妨害可能性について継続監視を強化。",
+      "最新の主要活動": "2026年6月18日時点でVolt Typhoon本体による新規侵害の公開確認はない。2026年6月10日、Lumen Black Lotus Labsの分析として、Volt Typhoon等の中国系アクターと関連付けられてきたJDYボットネットが1,500台超に拡大し、米軍関連ネットワークを含む外部公開資産の偵察に用いられていると報道。2026年4月の国際共同アドバイザリーで示された侵害済みSOHO/IoT機器を用いた秘匿ネットワーク、Living-off-the-Land型潜伏、危機時の妨害可能性について継続監視を強化。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "BleepingComputer - China-linked JDY botnet expands targeting of U.S. military networks - https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
@@ -96,7 +96,7 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "SOHO/IoT relay network",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。2026年4月の国際共同アドバイザリーでは、Flax Typhoonが侵害済みインフラによる秘匿ネットワークを用いてサイバー諜報活動を行っていた事例として言及されており、台湾関連組織への長期潜伏とSOHO/IoT機器を用いた中継基盤構築リスクを継続監視。",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。2026年4月の国際共同アドバイザリーでは、Flax Typhoonが侵害済みインフラによる秘匿ネットワークを用いてサイバー諜報活動を行っていた事例として言及されており、台湾関連組織への長期潜伏とSOHO/IoT機器を用いた中継基盤構築リスクを継続監視。",
       "ステータス": "継続（最終観測: 2026年4月）",
       "情報源": [
         "Microsoft - Flax Typhoon using legitimate software to quietly access Taiwanese organizations - https://www.microsoft.com/en-us/security/blog/2023/08/24/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations/",
@@ -110,7 +110,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Telecom persistence",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。通信事業者・ネットワーク機器侵害への継続警戒。通信インフラへの永続化、情報収集、アクセス維持リスクを継続監視。",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。通信事業者・ネットワーク機器侵害への継続警戒。通信インフラへの永続化、情報収集、アクセス維持リスクを継続監視。",
       "ステータス": "継続（最終観測: 2025年8月）",
       "情報源": [
         "CISA - Countering Chinese State-Sponsored Actors Compromise of Networks - https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
@@ -123,7 +123,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Diplomatic / government espionage",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。2026年4月、ProofpointがTA416による欧州政府・外交機関向け活動再開を報告。EUおよびNATO外交ミッションを標的とし、2026年3月には中東の外交・政府機関にも標的を拡大。Cloudflare Turnstile、OAuthリダイレクト、C#プロジェクトファイル、更新型PlugXの利用を確認。",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。2026年4月、ProofpointがTA416による欧州政府・外交機関向け活動再開を報告。EUおよびNATO外交ミッションを標的とし、2026年3月には中東の外交・政府機関にも標的を拡大。Cloudflare Turnstile、OAuthリダイレクト、C#プロジェクトファイル、更新型PlugXの利用を確認。",
       "ステータス": "継続（最終観測: 2026年4月）",
       "情報源": [
         "Proofpoint - I’d Come Running Back EU Again: TA416 Resumes European Government Espionage - https://www.proofpoint.com/us/blog/threat-insight/id-come-running-back-eu-again-ta416-resumes-european-government-espionage",
@@ -136,8 +136,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Supply chain / software targeting",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。物流、通信、ソフトウェア、サプライチェーン関連組織への侵入リスクを継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。物流、通信、ソフトウェア、サプライチェーン関連組織への侵入リスクを継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "SecurityWeek - Chinese Hacking Group APT41 Infiltrates Global Shipping and Tech Sectors - https://www.securityweek.com/chinese-hacking-group-apt41-infiltrates-global-shipping-and-tech-sectors-mandiant-warns/",
         "MITRE ATT&CK - APT41 - https://attack.mitre.org/groups/G0096/"
@@ -149,8 +149,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Cloud/MSP compromise",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。クラウド、MSP、委託先経由の侵害リスクとして継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。クラウド、MSP、委託先経由の侵害リスクとして継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "CISA - Chinese State-Sponsored Cyber Operations - https://www.cisa.gov/topics/cyber-threats-and-advisories/advanced-persistent-threats/china",
         "MITRE ATT&CK - APT10 - https://attack.mitre.org/groups/G0045/"
@@ -162,8 +162,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Defense intelligence collection",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動未確認。アジアの防衛・政府・外交関連組織への情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動未確認。アジアの防衛・政府・外交関連組織への情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - Tonto Team - https://attack.mitre.org/groups/G0131/"
       ]
@@ -174,8 +174,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Government / high-tech targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動未確認。台湾、政府、ハイテク、通信関連標的への継続リスクを監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動未確認。台湾、政府、ハイテク、通信関連標的への継続リスクを監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - Tropic Trooper - https://attack.mitre.org/groups/G0081/"
       ]
@@ -186,8 +186,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Government targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動未確認。政府、研究機関、重要産業への標的型侵入活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動未確認。政府、研究機関、重要産業への標的型侵入活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - APT27 - https://attack.mitre.org/groups/G0027/"
       ]
@@ -198,7 +198,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Political / military espionage",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年4月、NCSCおよびFBI等がAPT28によるSOHOルーター悪用、DNSハイジャック、Microsoft 365認証情報窃取活動を公表しており、ルーター侵害・認証情報窃取・秘匿インフラ運用の継続リスクとして監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年4月、NCSCおよびFBI等がAPT28によるSOHOルーター悪用、DNSハイジャック、Microsoft 365認証情報窃取活動を公表しており、ルーター侵害・認証情報窃取・秘匿インフラ運用の継続リスクとして監視。",
       "ステータス": "継続（最終観測: 2026年4月）",
       "情報源": [
         "NCSC UK - APT28 exploit routers to enable DNS hijacking operations - https://www.ncsc.gov.uk/news/apt28-exploit-routers-to-enable-dns-hijacking-operations",
@@ -211,7 +211,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Long-term cloud persistence",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。2026年、MandiantがAPT29対策としてMicrosoft 365環境の修復・ハードニングガイドを公開しており、クラウドID基盤、Microsoft 365、Entra ID環境への長期潜伏リスクを継続監視。",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。2026年、MandiantがAPT29対策としてMicrosoft 365環境の修復・ハードニングガイドを公開しており、クラウドID基盤、Microsoft 365、Entra ID環境への長期潜伏リスクを継続監視。",
       "ステータス": "継続（最終観測: 2026年2月）",
       "情報源": [
         "Google Cloud Community - Remediation and Hardening for Microsoft 365: Defending Against APT29 - https://security.googlecloudcommunity.com/hardening-guides-82/strategy-guide-remediation-and-hardening-for-microsoft-365-defending-against-apt29-6801",
@@ -224,8 +224,8 @@
       "カテゴリ": "破壊型活動",
       "戦略意図": "OT disruption",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。ウクライナ関連OT・重要インフラ破壊能力を背景に、電力・通信・交通分野への波及リスクを継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。ウクライナ関連OT・重要インフラ破壊能力を背景に、電力・通信・交通分野への波及リスクを継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "CISA - Sandworm Team and Cyclops Blink Malware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-054a",
         "MITRE ATT&CK - Sandworm Team - https://attack.mitre.org/groups/G0034/"
@@ -237,8 +237,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Long-term diplomatic espionage",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動未確認。外交・政府機関向け長期潜伏型スパイ活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動未確認。外交・政府機関向け長期潜伏型スパイ活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - Turla - https://attack.mitre.org/groups/G0010/"
       ]
@@ -249,7 +249,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Ukraine-focused espionage / malware propagation",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月1日、SekoiaがGamaredonの2026年1月観測キャンペーンを詳報。CVE-2025-8088（WinRAR path traversal）を悪用し、GammaPhish、GammaLoad、GammaWorm、GammaSteel等を用いてウクライナ組織への永続化、ワーム的拡散、情報窃取を実施。ロシア・ウクライナ戦争に連動する戦術的諜報活動として監視を強化。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月1日、SekoiaがGamaredonの2026年1月観測キャンペーンを詳報。CVE-2025-8088（WinRAR path traversal）を悪用し、GammaPhish、GammaLoad、GammaWorm、GammaSteel等を用いてウクライナ組織への永続化、ワーム的拡散、情報窃取を実施。ロシア・ウクライナ戦争に連動する戦術的諜報活動として監視を強化。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Sekoia - FSB’s matryoshka #1/3 – Gamaredon’s gifts that keeps unpacking – GammaPhish and GammaWorm - https://blog.sekoia.io/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm/",
@@ -264,8 +264,8 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Energy sector targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。エネルギー・重要インフラ分野への標的型アクセス作戦として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。エネルギー・重要インフラ分野への標的型アクセス作戦として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - Berserk Bear - https://attack.mitre.org/groups/G0115/"
       ]
@@ -276,7 +276,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "AI-assisted Ukraine targeting / state-aligned espionage",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年5月29日、WithSecureが新規ロシア関連アクターGREYVIBEを公表。少なくとも2025年8月以降、ウクライナおよびウクライナ関連組織を標的とし、生成AIおよびLLMをマルウェア開発、バックエンド構築、フィッシングルアー作成に利用したと評価。AI支援による低〜中程度能力アクターの作戦効率化事例として継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年5月29日、WithSecureが新規ロシア関連アクターGREYVIBEを公表。少なくとも2025年8月以降、ウクライナおよびウクライナ関連組織を標的とし、生成AIおよびLLMをマルウェア開発、バックエンド構築、フィッシングルアー作成に利用したと評価。AI支援による低〜中程度能力アクターの作戦効率化事例として継続監視。",
       "ステータス": "継続（最終観測: 2026年5月）",
       "情報源": [
         "WithSecure Labs - GREYVIBE: A Russia-nexus group leveraging AI across state-aligned operations - https://labs.withsecure.com/publications/greyvibe",
@@ -290,7 +290,7 @@
       "カテゴリ": "影響力工作、DDoS、代理妨害活動",
       "戦略意図": "Pro-Russian hacktivist disruption / Ukraine-supporter coercion / proxy sabotage",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月16日、Financial Timesが、英国首相Keir Starmer関連不動産への2025年の放火事件について、親露ハクティビストNoName057(16)と関連するTelegramハンドラー「El Money」が暗号資産報酬と極右プロパガンダを用いて実行者を勧誘したと報道。従来のDDoS、Telegram動員、暗号資産報酬型の「Patriotic Online Games」に加え、オンライン影響工作と物理的破壊・威嚇活動が接続し得る事例として重要性が上昇。欧州正面における政治的シグナリング、心理的圧力、低コスト妨害活動として継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月16日、Financial Timesが、英国首相Keir Starmer関連不動産への2025年の放火事件について、親露ハクティビストNoName057(16)と関連するTelegramハンドラー「El Money」が暗号資産報酬と極右プロパガンダを用いて実行者を勧誘したと報道。従来のDDoS、Telegram動員、暗号資産報酬型の「Patriotic Online Games」に加え、オンライン影響工作と物理的破壊・威嚇活動が接続し得る事例として重要性が上昇。欧州正面における政治的シグナリング、心理的圧力、低コスト妨害活動として継続監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Financial Times - Arson targeting Keir Starmer properties originated in Russia - https://www.ft.com/content/dd79d6eb-44e4-4365-8c6e-a4fd64b211c8",
@@ -305,7 +305,7 @@
       "カテゴリ": "経済犯罪",
       "戦略意図": "Crypto theft / defense targeting",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点でLazarus Group本体による新たな大規模公開活動なし。2026年はmacOS向け侵入チェーンや暗号資産・開発者標的活動が継続報告されており、暗号資産、FinTech、開発者環境への警戒が必要。2026年6月には、Proofpointが北朝鮮関連とみられるUNK_DeadDropによる開発者標的フィッシングを報告しており、Contagious Interview / Operation DreamJob系の開発者・Web3標的化と併せて監視を強化。",
+      "最新の主要活動": "2026年6月18日時点でLazarus Group本体による新たな大規模公開活動なし。2026年はmacOS向け侵入チェーンや暗号資産・開発者標的活動が継続報告されており、暗号資産、FinTech、開発者環境への警戒が必要。2026年6月には、Proofpointが北朝鮮関連とみられるUNK_DeadDropによる開発者標的フィッシングを報告しており、Contagious Interview / Operation DreamJob系の開発者・Web3標的化と併せて監視を強化。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "ANY.RUN - New Lazarus APT Campaign: Mach-O Man macOS Malware Kit Hits Businesses - https://any.run/cybersecurity-blog/lazarus-macos-malware-mach-o-man/",
@@ -319,7 +319,7 @@
       "カテゴリ": "経済犯罪、機密情報窃取",
       "戦略意図": "Developer targeting / cryptocurrency theft / supply-chain access",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月、Proofpointが北朝鮮関連とみられるUNK_DeadDropの開発者標的フィッシングキャンペーンを公表。暗号資産、金融、教育、技術関連の約100組織を対象に、求人、コードレビュー、開発プロジェクトを装ったメールでGitHub等のリポジトリや開発者向け課題に誘導し、自己完結型マルウェアペイロードを実行させる手法を確認。LinkedIn上の偽面接を重視したContagious InterviewやOperation DreamJobと異なり、メール起点でよりスケールしやすい開発者侵害手法として評価される。日本のWeb3、AI、SaaS、受託開発、OSSメンテナの認証情報窃取・サプライチェーン侵害リスクとして継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月、Proofpointが北朝鮮関連とみられるUNK_DeadDropの開発者標的フィッシングキャンペーンを公表。暗号資産、金融、教育、技術関連の約100組織を対象に、求人、コードレビュー、開発プロジェクトを装ったメールでGitHub等のリポジトリや開発者向け課題に誘導し、自己完結型マルウェアペイロードを実行させる手法を確認。LinkedIn上の偽面接を重視したContagious InterviewやOperation DreamJobと異なり、メール起点でよりスケールしやすい開発者侵害手法として評価される。日本のWeb3、AI、SaaS、受託開発、OSSメンテナの認証情報窃取・サプライチェーン侵害リスクとして継続監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Proofpoint - Don't Fear the Repo: UNK_DeadDrop Phishing Campaign Targets Developers to Steal Cryptocurrency - https://www.proofpoint.com/us/blog/threat-insight/dont-fear-repo-unkdeaddrop-phishing-campaign-targets-developers-steal",
@@ -333,8 +333,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Think tank / academia targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で大きな日本関連公開活動なし。シンクタンク、研究者、外交・安全保障関係者へのスピアフィッシング活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で大きな日本関連公開活動なし。シンクタンク、研究者、外交・安全保障関係者へのスピアフィッシング活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "CISA - North Korea Cyber Threat Overview and Advisories - https://www.cisa.gov/topics/cyber-threats-and-advisories/advanced-persistent-threats/north-korea",
         "MITRE ATT&CK - Kimsuky - https://attack.mitre.org/groups/G0094/"
@@ -346,8 +346,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Reconnaissance",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動未確認。朝鮮半島・周辺国の政府、報道、研究者向け偵察・情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動未確認。朝鮮半島・周辺国の政府、報道、研究者向け偵察・情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - APT37 - https://attack.mitre.org/groups/G0067/"
       ]
@@ -358,8 +358,8 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Military targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。軍事・防衛・研究機関を対象とする侵入、永続化、情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。軍事・防衛・研究機関を対象とする侵入、永続化、情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - Andariel - https://attack.mitre.org/groups/G0138/"
       ]
@@ -370,8 +370,8 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Persistence / MFA manipulation",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で大きな日本関連公開活動なし。中東関連組織への侵入、永続化、認証悪用型活動として継続監視。イスラエル・イラン情勢の緊張に伴い、政府、通信、エネルギー、金融、イスラエル関連組織への報復的サイバー活動の波及リスクを継続評価。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で大きな日本関連公開活動なし。中東関連組織への侵入、永続化、認証悪用型活動として継続監視。イスラエル・イラン情勢の緊張に伴い、政府、通信、エネルギー、金融、イスラエル関連組織への報復的サイバー活動の波及リスクを継続評価。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - MuddyWater - https://attack.mitre.org/groups/G0069/",
         "Canadian Centre for Cyber Security - Cyber threat bulletin: Iranian Cyber Threat Response to US/Israel Strikes - https://www.cyber.gc.ca/en/guidance/cyber-threat-bulletin-iranian-cyber-threat-response-usisrael-strikes-february-2026"
@@ -383,8 +383,8 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Persona ops / phishing",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で大きな日本関連公開活動なし。研究者、外交関係者、政策関係者へのペルソナ運用型フィッシングとして継続監視。中東情勢の緊張に伴い、イスラエル、米国、欧州および同盟国関係者への標的型フィッシング・認証情報窃取の再活性化に注意。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で大きな日本関連公開活動なし。研究者、外交関係者、政策関係者へのペルソナ運用型フィッシングとして継続監視。中東情勢の緊張に伴い、イスラエル、米国、欧州および同盟国関係者への標的型フィッシング・認証情報窃取の再活性化に注意。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "Google Threat Analysis Group - Iran-linked phishing campaigns - https://blog.google/threat-analysis-group/",
         "MITRE ATT&CK - Magic Hound - https://attack.mitre.org/groups/G0059/",
@@ -397,8 +397,8 @@
       "カテゴリ": "破壊型活動",
       "戦略意図": "Energy / aviation targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。エネルギー、航空、重要インフラ分野への情報窃取・破壊型能力保持に警戒。イスラエル・イラン情勢下で航空、エネルギー、輸送関連組織への報復的活動が再活性化する可能性を継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。エネルギー、航空、重要インフラ分野への情報窃取・破壊型能力保持に警戒。イスラエル・イラン情勢下で航空、エネルギー、輸送関連組織への報復的活動が再活性化する可能性を継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - APT33 - https://attack.mitre.org/groups/G0064/",
         "Canadian Centre for Cyber Security - Cyber threat bulletin: Iranian Cyber Threat Response to US/Israel Strikes - https://www.cyber.gc.ca/en/guidance/cyber-threat-bulletin-iranian-cyber-threat-response-usisrael-strikes-february-2026"
@@ -410,8 +410,8 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Middle East persistence ops",
       "日本にとっての重要性": "Low",
-      "最新の主要活動": "2026年6月19日時点で大きな日本関連公開活動なし。中東政府・エネルギー関連組織への侵入、永続化、情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で大きな日本関連公開活動なし。中東政府・エネルギー関連組織への侵入、永続化、情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - OilRig - https://attack.mitre.org/groups/G0049/"
       ]
@@ -422,8 +422,8 @@
       "カテゴリ": "侵入、永続化",
       "戦略意図": "Ransomware ecosystem overlap",
       "日本にとっての重要性": "Low",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。イラン系アクセスブローカー活動およびランサムウェア・エコシステムとの重複リスクとして継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。イラン系アクセスブローカー活動およびランサムウェア・エコシステムとの重複リスクとして継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "CISA - Iranian Cyber Actors Targeting Personal Accounts to Support Operations - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a",
         "MITRE ATT&CK - Fox Kitten - https://attack.mitre.org/groups/G0117/"
@@ -435,7 +435,7 @@
       "カテゴリ": "破壊型活動",
       "戦略意図": "Hacktivist-front disruption / public infrastructure targeting",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年5月、Gambit Securityが2026年3月のLos Angeles County Metropolitan Transportation Authority侵害をAbabil of Minabに関連付け。少なくとも700GBのメール、バックアップ、その他ファイルの窃取、交通情報表示や運賃カード関連サービスへの影響が報道された。公共交通・都市インフラ標的化のイラン関連活動として継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年5月、Gambit Securityが2026年3月のLos Angeles County Metropolitan Transportation Authority侵害をAbabil of Minabに関連付け。少なくとも700GBのメール、バックアップ、その他ファイルの窃取、交通情報表示や運賃カード関連サービスへの影響が報道された。公共交通・都市インフラ標的化のイラン関連活動として継続監視。",
       "ステータス": "継続（最終観測: 2026年5月）",
       "情報源": [
         "Reuters - Iranian hackers responsible for Los Angeles transit system breach, Israeli researchers say - https://www.reuters.com/legal/litigation/iranian-hackers-responsible-los-angeles-transit-system-breach-israeli-2026-05-26/",
@@ -448,7 +448,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Aviation / software / defense espionage",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年5月、Check Point ResearchがIRGC関連アクターNimbus Manticoreの新キャンペーンを報告。2026年2月以降のイラン紛争環境下で、米国、欧州、中東の航空・ソフトウェア分野を標的にし、SEOポイズニングを初確認、MiniFastおよびMiniJunk V2等の新規・更新バックドアを利用。中東情勢連動型の標的型活動として監視を強化。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年5月、Check Point ResearchがIRGC関連アクターNimbus Manticoreの新キャンペーンを報告。2026年2月以降のイラン紛争環境下で、米国、欧州、中東の航空・ソフトウェア分野を標的にし、SEOポイズニングを初確認、MiniFastおよびMiniJunk V2等の新規・更新バックドアを利用。中東情勢連動型の標的型活動として監視を強化。",
       "ステータス": "継続（最終観測: 2026年5月）",
       "情報源": [
         "Check Point Research - Fast and Furious: Nimbus Manticore Operations During the Iranian Conflict - https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
@@ -462,7 +462,7 @@
       "カテゴリ": "機密情報窃取、サプライチェーン攻撃",
       "戦略意図": "Vietnam-aligned espionage / domestic financial and infrastructure monitoring",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月11日、ESETがOceanLotusの2024〜2026年の活動を公表。2024年中頃から2026年2月までベトナムのインフラ・交通建設企業に長期侵入し、2025年10月から2026年3月までベトナム投資家向けFireAnt MetaKitのアップデート機構を悪用したサプライチェーン攻撃を実施。SPECTRALVIPERバックドアを用い、従来の対外諜報から国内金融・インフラ監視へ重点が移った可能性がある。日本に対する直接性は限定的だが、東南アジアにおける国家系サプライチェーン攻撃、投資・市場情報収集、インフラ企業侵害の観点で継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月11日、ESETがOceanLotusの2024〜2026年の活動を公表。2024年中頃から2026年2月までベトナムのインフラ・交通建設企業に長期侵入し、2025年10月から2026年3月までベトナム投資家向けFireAnt MetaKitのアップデート機構を悪用したサプライチェーン攻撃を実施。SPECTRALVIPERバックドアを用い、従来の対外諜報から国内金融・インフラ監視へ重点が移った可能性がある。日本に対する直接性は限定的だが、東南アジアにおける国家系サプライチェーン攻撃、投資・市場情報収集、インフラ企業侵害の観点で継続監視。",
       "ステータス": "継続（最終観測: 2026年3月、公表: 2026年6月）",
       "情報源": [
         "ESET - OceanLotus: From external espionage to domestic targeting - https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/",
@@ -476,8 +476,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "South Asia military targeting",
       "日本にとっての重要性": "Low",
-      "最新の主要活動": "2026年6月19日時点で大きな日本関連公開活動なし。南アジアの軍事・政府関連標的への情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で大きな日本関連公開活動なし。南アジアの軍事・政府関連標的への情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - Transparent Tribe - https://attack.mitre.org/groups/G0134/"
       ]
@@ -488,8 +488,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Defense targeting",
       "日本にとっての重要性": "Low",
-      "最新の主要活動": "2026年6月19日時点で大きな日本関連公開活動なし。防衛関連標的向けの情報窃取活動として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で大きな日本関連公開活動なし。防衛関連標的向けの情報窃取活動として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "MITRE ATT&CK - SideCopy - https://attack.mitre.org/groups/G1008/"
       ]
@@ -500,7 +500,7 @@
       "カテゴリ": "影響力工作",
       "戦略意図": "Election interference / political influence operations",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月11日、フランス政府系の偽情報監視機関Viginumが、イスラエル企業BlackCoreについて、フランス地方選での親パレスチナ候補に対するオンライン中傷キャンペーンに加え、ニューヨーク市、スコットランド、アンゴラ、トーゴでのデジタル干渉疑惑にも関与した可能性を示したと報道。委託主体は不明で、イスラエル政府は関与を否定。国家機関ではなく民間影響力工作ベンダが複数国の政治過程に介入し得る事例として、日本でも選挙、外交争点、対中・中東関連言説への外部委託型影響力工作リスクとして監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月11日、フランス政府系の偽情報監視機関Viginumが、イスラエル企業BlackCoreについて、フランス地方選での親パレスチナ候補に対するオンライン中傷キャンペーンに加え、ニューヨーク市、スコットランド、アンゴラ、トーゴでのデジタル干渉疑惑にも関与した可能性を示したと報道。委託主体は不明で、イスラエル政府は関与を否定。国家機関ではなく民間影響力工作ベンダが複数国の政治過程に介入し得る事例として、日本でも選挙、外交争点、対中・中東関連言説への外部委託型影響力工作リスクとして監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Reuters - Israeli firm BlackCore suspected of meddling in New York and Scotland votes, France says - https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/"
@@ -512,7 +512,7 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Financial market intelligence collection",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月3日、BroadcomのSymantecおよびCarbon Blackが、主要グローバル証券取引所の上級幹部Outlookメールボックスに対する長期諜報事案を公表。攻撃者は2025年10月から2026年3月まで約150日間アクセスを維持し、DropboxおよびOneDriveを用いて少量ずつメール等を流出させたと報告。攻撃者帰属は未特定だが、金融市場インフラの役員メールを戦略情報源として狙う諜報型キャンペーンとして継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月3日、BroadcomのSymantecおよびCarbon Blackが、主要グローバル証券取引所の上級幹部Outlookメールボックスに対する長期諜報事案を公表。攻撃者は2025年10月から2026年3月まで約150日間アクセスを維持し、DropboxおよびOneDriveを用いて少量ずつメール等を流出させたと報告。攻撃者帰属は未特定だが、金融市場インフラの役員メールを戦略情報源として狙う諜報型キャンペーンとして継続監視。",
       "ステータス": "継続（最終観測: 2026年3月、公表: 2026年6月）",
       "情報源": [
         "SecurityWeek - Hackers Target Global Stock Exchange in Espionage Operation - https://www.securityweek.com/hackers-target-global-stock-exchange-in-espionage-operation/",
@@ -526,7 +526,7 @@
       "カテゴリ": "破壊型活動、妨害活動",
       "戦略意図": "Financial service disruption / Middle East conflict-linked cyber pressure",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の攻撃者帰属は未公表。2026年6月14日、イランの銀行調整評議会が、Bank Melli、Bank Tejarat、Bank Saderat、Export Development Bank of Iranの4銀行でサービス障害を引き起こした限定的サイバー攻撃を公表。攻撃は4行が利用する共有通信インフラを標的にしたとされ、イラン側は顧客データの漏洩・削除はないと説明。イスラエル・イラン情勢の緊張下で金融サービスの可用性に影響した事案として継続監視。日本への直接影響は限定的だが、中東情勢に連動した金融、通信、エネルギー分野へのサイバー妨害リスクとして監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の攻撃者帰属は未公表。2026年6月14日、イランの銀行調整評議会が、Bank Melli、Bank Tejarat、Bank Saderat、Export Development Bank of Iranの4銀行でサービス障害を引き起こした限定的サイバー攻撃を公表。攻撃は4行が利用する共有通信インフラを標的にしたとされ、イラン側は顧客データの漏洩・削除はないと説明。イスラエル・イラン情勢の緊張下で金融サービスの可用性に影響した事案として継続監視。日本への直接影響は限定的だが、中東情勢に連動した金融、通信、エネルギー分野へのサイバー妨害リスクとして監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Reuters - Iran says limited cyberattack disrupts services at four banks, state media says - https://www.reuters.com/world/middle-east/iran-says-limited-cyberattack-disrupts-services-four-banks-state-media-says-2026-06-14/",
@@ -539,7 +539,7 @@
       "カテゴリ": "影響力工作、諜報活動",
       "戦略意図": "Digital HUMINT / recruitment of cleared personnel",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月10日、米司法省とFBIが、中国情報機関関係者に支援された疑いのある偽コンサルティングサイト13件を差押えたと公表。米政府・軍の現職・元職、セキュリティクリアランス保有者を偽求人や偽コンサル契約で誘導し、機微情報提供を促した疑い。AI生成画像、SNS、求人サイト、Telegram、暗号資産支払いを用いたオンラインリクルート型防諜事案として監視。日本でも退職自衛官、政府職員、研究者、CTI人材へのLinkedIn・求人型アプローチ監視が必要。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月10日、米司法省とFBIが、中国情報機関関係者に支援された疑いのある偽コンサルティングサイト13件を差押えたと公表。米政府・軍の現職・元職、セキュリティクリアランス保有者を偽求人や偽コンサル契約で誘導し、機微情報提供を促した疑い。AI生成画像、SNS、求人サイト、Telegram、暗号資産支払いを用いたオンラインリクルート型防諜事案として監視。日本でも退職自衛官、政府職員、研究者、CTI人材へのLinkedIn・求人型アプローチ監視が必要。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "U.S. Department of Justice - Justice Department, FBI Disable 13 Websites Backed by Suspected Chinese Agents Sought Sensitive Information from U.S. Military and Government Personnel - https://www.justice.gov/opa/pr/justice-department-fbi-disable-13-websites-backed-suspected-chinese-agents-sought-sensitive"
@@ -551,7 +551,7 @@
       "カテゴリ": "サプライチェーン攻撃",
       "戦略意図": "Website compromise via third-party JavaScript / administrator session abuse",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月15日、PushEngage、OptinMonster、TrustPulse関連のWordPress向けCDN配信JavaScriptが改ざんされ、ログイン中のWordPress管理者が読み込むと不正管理者アカウントと隠しプラグインを作成する攻撃が報告された。悪性スクリプトの配信は2026年6月12〜14日に確認され、攻撃者帰属は未特定。OSSパッケージだけでなく、マーケティングSaaSや通知サービスの外部JavaScriptがWebサイト侵害のサプライチェーン面となる事例として継続監視。日本の自治体、中小企業、EC、メディアのWordPress管理者アカウント、wp-content/plugins、6月12〜14日の管理者ログイン時通信の確認を推奨。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月15日、PushEngage、OptinMonster、TrustPulse関連のWordPress向けCDN配信JavaScriptが改ざんされ、ログイン中のWordPress管理者が読み込むと不正管理者アカウントと隠しプラグインを作成する攻撃が報告された。悪性スクリプトの配信は2026年6月12〜14日に確認され、攻撃者帰属は未特定。OSSパッケージだけでなく、マーケティングSaaSや通知サービスの外部JavaScriptがWebサイト侵害のサプライチェーン面となる事例として継続監視。日本の自治体、中小企業、EC、メディアのWordPress管理者アカウント、wp-content/plugins、6月12〜14日の管理者ログイン時通信の確認を推奨。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "The Hacker News - Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites - https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
@@ -564,29 +564,13 @@
       "カテゴリ": "侵入、認証情報窃取",
       "戦略意図": "Edge device credential harvesting / VPN initial access / credential reuse",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月17〜19日、Fortinet FortiGateファイアウォールおよびVPN機器を対象とする大規模認証情報収集キャンペーンが複数媒体で報告された。Fortinetは、これは新規脆弱性または新規アドバイザリに基づくものではなく、過去事案由来のデータや既知構成リスクを用いたcredential-harvesting campaignであり、bruteforcingを含むと説明。報道では約73,932台規模のFortinet/FortiGate firewall URL、ユーザー名、メール、平文パスワード等が含まれる可能性が指摘され、Hudson Rockや複数研究者がFortiBleedとして報告。攻撃者帰属は未特定だが、VPN・境界機器の認証情報が初期アクセス市場に流通するリスクとして、日本の政府、重要インフラ、製造、金融、委託先ネットワークで管理者認証情報リセット、MFA、管理インターフェース露出確認、異常ログイン監査を優先監視。",
-      "ステータス": "継続（最終観測: 2026年6月）",
+      "最新の主要活動": "2026年6月17〜18日、Fortinet FortiGateファイアウォールおよびVPN機器を対象とする大規模認証情報収集キャンペーンが複数媒体で報告された。Arctic Wolf Labsは、FortiBleedと呼ばれる活動によりインターネット公開FortiGate機器の設定ファイル抽出と保存済み認証情報ハッシュの解析が行われ、194か国で30,000〜75,000台規模の管理者認証情報が影響を受け得ると報告。Fortinetは、これは新規脆弱性または新規アドバイザリに基づくものではなく、過去に露出・窃取された認証情報や既知の構成リスクに関係するcredential-harvesting campaignと説明。攻撃者帰属は未特定だが、VPN・境界機器の認証情報が初期アクセス市場に流通するリスクとして、日本の政府、重要インフラ、製造、金融、委託先ネットワークで管理者認証情報リセット、MFA、管理インターフェース露出確認、異常ログイン監査を優先監視。",
+      "ステータス": "新規（最終観測: 2026年6月）",
       "情報源": [
         "Arctic Wolf - Active FortiBleed Campaign Impacting Fortinet Devices Across 194 Countries - https://arcticwolf.com/resources/blog/active-fortibleed-campaign-impacting-fortinet-devices-across-194-countries/",
         "Reuters - Fortinet says 'credential-harvesting campaign' is targeting its Firewalls and VPN devices - https://www.reuters.com/world/fortinet-says-credential-harvesting-campaign-is-targeting-its-firewalls-vpn-2026-06-17/",
-        "ITPro - Passwords nicked for nearly 74,000 Fortinet devices - https://www.itpro.com/security/passwords-nicked-for-nearly-74-000-fortinet-devices",
         "Dark Reading - Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices - https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
         "CSO Online - FortiBleed campaign exposes 75,000 Fortinet firewalls worldwide - https://www.csoonline.com/article/4186790/fortibleed-campaign-exposes-75000-fortinet-firewalls-worldwide.html"
-      ]
-    },
-    {
-      "属性": "Criminal",
-      "アクター": "Evil Corp / SocGholish",
-      "カテゴリ": "経済犯罪、初期アクセス、マルウェア配布",
-      "戦略意図": "Loader and initial access infrastructure / ransomware ecosystem enablement",
-      "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日、国際法執行機関がOperation Endgameの一環として、Evil Corpに関連付けられるSocGholish / FakeUpdatesマルウェア配布基盤を大規模に摘発したと報道。オランダ、カナダ、米国、ドイツ等の当局が連携し、約14,971〜15,000件の感染WordPressサイトからSocGholishを除去し、106台超のサーバーおよびドメインを停止・押収した。SocGholishは2017年以降、正規Webサイト上の偽ブラウザ更新通知を通じて被害端末へマルウェアを配布し、DoppelPaymer、WastedLocker、Hades、LockBit、RansomHub等のランサムウェア初期アクセスに利用されてきた。日本のWebサイト改ざん、WordPress管理、TDS、初期アクセスブローカー監視の重要性が上昇。",
-      "ステータス": "新規（最終観測: 2026年6月）",
-      "情報源": [
-        "The Record - Police raid malware network tied to Russia's Evil Corp hacker group - https://therecord.media/socgholish-botnet-disrupted",
-        "Infosecurity Magazine - Operation Endgame Disrupts Malware Linked to Major Ransomware Attacks - https://www.infosecurity-magazine.com/news/operation-endgame-socgholish-evil/",
-        "CityNews Kitchener - Global effort targeted fake computer updates tied to Russian cybercriminals: RCMP - https://kitchener.citynews.ca/2026/06/19/global-effort-targeted-fake-computer-updates-tied-to-russian-cybercriminals-rcmp/",
-        "Safestate - Police Takes Down SocGholish Malware Network Tied to Evil Corp - https://www.safestate.com/post/police-takes-down-socgholish-malware-network-tied-to-evil-corp"
       ]
     },
     {
@@ -595,7 +579,7 @@
       "カテゴリ": "経済犯罪、OT影響",
       "戦略意図": "Ransomware / operational disruption / food and agriculture sector impact",
       "日本にとっての重要性": "Medium",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月15日、The Gentlemenランサムウェアグループが豪州Mackay Sugarをリークサイトに掲載。Mackay Sugarでは2026年6月10日にサイバー攻撃が公表され、Farleigh MillおよびRacecourse Millの操業が停止し、収穫、搬送、製糖プロセスに影響した。6月15日時点でデータ公開は未確認だが、同社は蒸気試験と段階的な操業再開を進めている。Microsoftは2026年5月、The GentlemenをGo言語製、Garble難読化、自己伝播機能を持つランサムウェアとして分析し、教育、交通、医療、金融など複数地域・業種への影響を報告。日本でも食品製造、農業協同組合、物流、港湾、冷蔵倉庫等のサプライチェーン影響を監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月15日、The Gentlemenランサムウェアグループが豪州Mackay Sugarをリークサイトに掲載。Mackay Sugarでは2026年6月10日にサイバー攻撃が公表され、Farleigh MillおよびRacecourse Millの操業が停止し、収穫、搬送、製糖プロセスに影響した。6月15日時点でデータ公開は未確認だが、同社は蒸気試験と段階的な操業再開を進めている。Microsoftは2026年5月、The GentlemenをGo言語製、Garble難読化、自己伝播機能を持つランサムウェアとして分析し、教育、交通、医療、金融など複数地域・業種への影響を報告。日本でも食品製造、農業協同組合、物流、港湾、冷蔵倉庫等のサプライチェーン影響を監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "SecurityWeek - Ransomware Attack Shuts Down Mills of Australia's Second-Largest Sugar Producer - https://www.securityweek.com/ransomware-attack-shuts-down-mills-of-australias-second-largest-sugar-producer/",
@@ -610,8 +594,8 @@
       "カテゴリ": "経済犯罪、データ恐喝",
       "戦略意図": "High-value pharmaceutical data theft / extortion / AI and clinical research monetization",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月16〜19日、ReutersおよびSecurityWeekが、FulcrumSecがNovo Nordiskから1.3TB超のデータを窃取し、2か月間侵入したうえで2,500万ドルを要求したと主張していると報道。窃取主張データには、既存・未公開医薬品情報、会社ソースコード、内部AIモデル、製造・処理施設情報、従業員、医師、臨床試験患者関連情報が含まれるとされる。Novo Nordiskは6月11日に限定的な不正アクセスを公表していたが、FulcrumSecの主張により、製薬・医療研究・AIモデル・臨床データを一体的に狙う恐喝事案として重要性が上昇。日本の製薬、医療研究、バイオ、AI創薬、臨床試験関連SaaSにおけるデータ窃取恐喝リスクとして継続監視。",
-      "ステータス": "継続（最終観測: 2026年6月）",
+      "最新の主要活動": "2026年6月16〜18日、ReutersおよびSecurityWeekが、FulcrumSecがNovo Nordiskから1.3TB超のデータを窃取し、2か月間侵入したうえで2,500万ドルを要求したと主張していると報道。窃取主張データには、既存・未公開医薬品情報、会社ソースコード、内部AIモデル、製造・処理施設情報、従業員、医師、臨床試験患者関連情報が含まれるとされる。Novo Nordiskは6月11日に限定的な不正アクセスを公表していたが、FulcrumSecの主張により、製薬・医療研究・AIモデル・臨床データを一体的に狙う恐喝事案として重要性が上昇。日本の製薬、医療研究、バイオ、AI創薬、臨床試験関連SaaSにおけるデータ窃取恐喝リスクとして新規追加。",
+      "ステータス": "新規（最終観測: 2026年6月）",
       "情報源": [
         "Reuters - Hacking group claims major hack of Novo Nordisk and attempted $25 million extortion - https://www.reuters.com/legal/government/hacking-group-claims-major-hack-novo-nordisk-attempted-25-million-extortion-2026-06-16/",
         "SecurityWeek - Cybercrime Group Claims Novo Nordisk Hack - https://www.securityweek.com/cybercrime-group-claims-novo-nordisk-hack/",
@@ -624,7 +608,7 @@
       "カテゴリ": "経済犯罪",
       "戦略意図": "Ransomware / edge-device initial access",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月上旬、Check Pointおよび複数ベンダが、QilinランサムウェアのアフィリエイトがCheck Point Remote Access VPN等のCVE-2026-50751をゼロデイとして悪用した可能性を報告。5月7日以降に悪用が始まり、6月初旬に増加したとされる。VPN境界機器を初期アクセスとして用いるランサムウェア作戦として、日本企業・重要インフラのVPN設定監査、IKEv1無効化、機械証明書要求、侵害痕跡確認を優先監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月上旬、Check Pointおよび複数ベンダが、QilinランサムウェアのアフィリエイトがCheck Point Remote Access VPN等のCVE-2026-50751をゼロデイとして悪用した可能性を報告。5月7日以降に悪用が始まり、6月初旬に増加したとされる。VPN境界機器を初期アクセスとして用いるランサムウェア作戦として、日本企業・重要インフラのVPN設定監査、IKEv1無効化、機械証明書要求、侵害痕跡確認を優先監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Check Point - Check Point Releases Important Hotfix for Vulnerabilities in Deprecated IKEv1 VPN Protocol - https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/",
@@ -638,8 +622,8 @@
       "カテゴリ": "機密情報窃取",
       "戦略意図": "Social engineering",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で新たな大規模公開活動なし。2025〜2026年もヘルプデスク悪用、SIMスワップ、MFA疲労攻撃、認証情報窃取を用いた企業侵入リスクが継続。ShinyHuntersやThe Com関連クラスタとの重複・協業可能性を含め、SaaS、ID基盤、ヘルプデスク、外部委託先を介した侵入として継続監視。",
-      "ステータス": "継続（最終更新: 2026年6月19日）",
+      "最新の主要活動": "2026年6月18日時点で新たな大規模公開活動なし。2025〜2026年もヘルプデスク悪用、SIMスワップ、MFA疲労攻撃、認証情報窃取を用いた企業侵入リスクが継続。ShinyHuntersやThe Com関連クラスタとの重複・協業可能性を含め、SaaS、ID基盤、ヘルプデスク、外部委託先を介した侵入として継続監視。",
+      "ステータス": "継続（最終更新: 2026年6月18日）",
       "情報源": [
         "CISA - Scattered Spider Cybersecurity Advisory - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
         "MITRE ATT&CK - Scattered Spider - https://attack.mitre.org/groups/G1015/"
@@ -651,7 +635,7 @@
       "カテゴリ": "経済犯罪",
       "戦略意図": "Data theft extortion / legal-sector targeting",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年5月26日、FBIが米法律事務所を標的とするSRGの活動を警告。IT担当者を装う電話・フィッシングメールでリモートアクセスを確立し、失敗時には人物を現地に送ってUSB等を接続し、データ窃取を試みる対面型ソーシャルエンジニアリングを確認。法律・コンサル・会計等の専門サービス業に波及し得る手法として監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年5月26日、FBIが米法律事務所を標的とするSRGの活動を警告。IT担当者を装う電話・フィッシングメールでリモートアクセスを確立し、失敗時には人物を現地に送ってUSB等を接続し、データ窃取を試みる対面型ソーシャルエンジニアリングを確認。法律・コンサル・会計等の専門サービス業に波及し得る手法として監視。",
       "ステータス": "継続（最終観測: 2026年5月）",
       "情報源": [
         "FBI IC3 - Silent Ransom Group Impersonating IT Personnel through Social Engineering - https://www.ic3.gov/CSA/2026/260526.pdf",
@@ -665,7 +649,7 @@
       "カテゴリ": "サプライチェーン攻撃",
       "戦略意図": "Developer credential theft / OSS supply chain compromise",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年5月26日、CrowdStrike、Google、ShadowserverがGlassWormボットネットの4系統C2を同時遮断。2025年以降、盗難開発者認証情報、悪性拡張機能、汚染パッケージを通じて300超のGitHubリポジトリを汚染したと報告。開発者環境・OSSサプライチェーンへの継続的脅威として監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年5月26日、CrowdStrike、Google、ShadowserverがGlassWormボットネットの4系統C2を同時遮断。2025年以降、盗難開発者認証情報、悪性拡張機能、汚染パッケージを通じて300超のGitHubリポジトリを汚染したと報告。開発者環境・OSSサプライチェーンへの継続的脅威として監視。",
       "ステータス": "継続（最終観測: 2026年5月）",
       "情報源": [
         "CrowdStrike - Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet - https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
@@ -679,7 +663,7 @@
       "カテゴリ": "サプライチェーン攻撃",
       "戦略意図": "CI/CD credential theft / developer ecosystem compromise",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月10日、MiasmaワームのソースコードがGitHub上で一時的に公開されたと報道され、Mini Shai-Hulud派生の手法が模倣・再利用されるリスクが上昇。2026年6月9日にはGitHubがnpm v12で依存パッケージのinstall script、Git依存、remote URL依存を明示許可制へ変更予定と発表し、Miasma、Shai-Hulud、TeamPCP系の開発者・CI/CD標的型サプライチェーン攻撃への対策を強化。TeamPCPは2026年5月のGitHub内部リポジトリ侵害で悪性VS Code拡張の悪用が報じられており、開発者端末、VS Code拡張、GitHub token、CI/CD secretsを狙う攻撃面として継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月10日、MiasmaワームのソースコードがGitHub上で一時的に公開されたと報道され、Mini Shai-Hulud派生の手法が模倣・再利用されるリスクが上昇。2026年6月9日にはGitHubがnpm v12で依存パッケージのinstall script、Git依存、remote URL依存を明示許可制へ変更予定と発表し、Miasma、Shai-Hulud、TeamPCP系の開発者・CI/CD標的型サプライチェーン攻撃への対策を強化。TeamPCPは2026年5月のGitHub内部リポジトリ侵害で悪性VS Code拡張の悪用が報じられており、開発者端末、VS Code拡張、GitHub token、CI/CD secretsを狙う攻撃面として継続監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "BleepingComputer - The Miasma worm source code briefly leaked on GitHub - https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
@@ -696,19 +680,18 @@
       "属性": "Criminal",
       "アクター": "ShinyHunters / UNC6240",
       "カテゴリ": "経済犯罪",
-      "戦略意図": "Data theft extortion / SaaS, ERP, telecom and enterprise data targeting",
+      "戦略意図": "Data theft extortion / SaaS, ERP and telecom targeting",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で、ShinyHuntersによる企業・国際機関・教育分野へのデータ窃取恐喝が継続。2026年6月15日にShinyHuntersがKodakをリークサイトに掲載し、220万件超の顧客PIIおよび内部企業データを窃取したと主張、6月18日を公開期限とした。Kodakは限定的な不正アクセスを認め、外部専門家および法執行機関と調査している。また、2026年6月15日には欧州評議会から約297GB、42.9万超ファイルを窃取したとの主張も報じられ、The RegisterはOracle PeopleSoftゼロデイ悪用キャンペーンとの関連を報じた。2026年6月11日にGoogle Threat Intelligence GroupおよびMandiantが公表したOracle PeopleSoft標的のUNC6240 / ShinyHunters恐喝キャンペーンでは、CVE-2026-35273（PeopleSoft PeopleTools Environment ManagementのRCE、CVSS 9.8）をゼロデイとして悪用したとされる。国際機関、高等教育、通信、SaaS、ERP、製造系企業を横断するデータ窃取恐喝アクターとして重要性をHighで維持。",
+      "最新の主要活動": "2026年6月18日時点で、ShinyHuntersによるOracle PeopleSoftゼロデイ悪用キャンペーンの影響確認が継続。2026年6月15日、ShinyHuntersが欧州評議会（Council of Europe）から約297GB、42.9万超ファイルを窃取したと主張し、HR、給与、契約、CV、銀行、税務、医療関連データを含む可能性が報道された。The RegisterはOracle PeopleSoftゼロデイ悪用キャンペーンとの関連を報じており、2026年6月11日にGoogle Threat Intelligence GroupおよびMandiantが公表したOracle PeopleSoft標的のUNC6240 / ShinyHunters恐喝キャンペーンの継続事案として監視。活動は2026年5月27日から6月9日に観測され、CVE-2026-35273（PeopleSoft PeopleTools Environment ManagementのRCE、CVSS 9.8）をゼロデイとして悪用したとされる。国際機関、高等教育、通信、SaaS、ERPを横断するデータ窃取恐喝アクターとして重要性をHighで維持。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
-        "SecurityWeek - Kodak Admits Data Breach After ShinyHunters Hack Claims - https://www.securityweek.com/kodak-admits-data-breach-after-shinyhunters-hack-claims/",
-        "BleepingComputer - Kodak confirms data breach claimed by ShinyHunters extortion gang - https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
         "SecurityWeek - ShinyHunters Claims Council of Europe Hack - https://www.securityweek.com/shinyhunters-claims-council-of-europe-hack/",
         "BleepingComputer - Council of Europe investigates ShinyHunters data breach claims - https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
         "The Register - Council of Europe hacked in ShinyHunters' PeopleSoft heist - https://www.theregister.com/cyber-crime/2026/06/15/council_of_europe_hacked_in_shinyhunters/",
         "Google Cloud - ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit - https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit",
         "Reuters - Google says ShinyHunters hackers targeting education sector via Oracle exploit - https://www.reuters.com/legal/government/google-says-shinyhunters-hackers-targeting-education-sector-via-oracle-exploit-2026-06-11/",
         "The Hacker News - ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities - https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+        "TechRadar - Oracle warns customers of critical PeopleSoft attack after hundreds of servers hacked by apparent ShinyHunters data theft attacks - https://www.techradar.com/pro/security/oracle-warns-customers-of-critical-peoplesoft-attack-after-hundreds-of-servers-hacked-by-apparent-shinyhunters-data-theft-attacks",
         "Huntress - ShinyHunters Threat Actor Profile: TTPs, IoCs & Attacks - https://www.huntress.com/threat-library/threat-actors/shinyhunters"
       ]
     },
@@ -718,7 +701,7 @@
       "カテゴリ": "経済犯罪",
       "戦略意図": "Credential theft / malware delivery / fraud",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月19日時点で追加の大規模公開活動は確認されない。2026年6月4日、Proofpointが中国語話者とみられるサイバー犯罪アクターTA4922の活動拡大を公表。日本、台湾、韓国、シンガポール、インドへの従来活動に加え、英国、ドイツ、イタリア、南アフリカへ標的を拡大。HR、給与、税務、請求書、福利厚生等のルアーを用い、Atlas RAT、RomulusLoader、SilentRunLoader、ValleyRAT等を配布し、LINE、WhatsApp、Microsoft Teamsへ誘導するソーシャルエンジニアリングも確認。2026年4月7日には日本組織向け請求書ルアーでAtlas RATをDLLサイドローディングにより配布したと報告されており、日本企業向け認証情報窃取・初期アクセスリスクとして継続監視。",
+      "最新の主要活動": "2026年6月18日時点で追加の大規模公開活動は確認されない。2026年6月4日、Proofpointが中国語話者とみられるサイバー犯罪アクターTA4922の活動拡大を公表。日本、台湾、韓国、シンガポール、インドへの従来活動に加え、英国、ドイツ、イタリア、南アフリカへ標的を拡大。HR、給与、税務、請求書、福利厚生等のルアーを用い、Atlas RAT、RomulusLoader、SilentRunLoader、ValleyRAT等を配布し、LINE、WhatsApp、Microsoft Teamsへ誘導するソーシャルエンジニアリングも確認。2026年4月7日には日本組織向け請求書ルアーでAtlas RATをDLLサイドローディングにより配布したと報告されており、日本企業向け認証情報窃取・初期アクセスリスクとして継続監視。",
       "ステータス": "継続（最終観測: 2026年6月）",
       "情報源": [
         "Proofpoint - TA4922: The Suspected Chinese Crime Group is Going Global - https://www.proofpoint.com/us/blog/threat-insight/ta4922-suspected-chinese-crime-group-going-global",
@@ -732,13 +715,12 @@
       "カテゴリ": "経済犯罪、ランサムウェア、ステルスC2",
       "戦略意図": "Ransomware cartel operations / SaaS relay abuse / detection evasion",
       "日本にとっての重要性": "High",
-      "最新の主要活動": "2026年6月17〜19日、Broadcom SymantecおよびCarbon Blackの分析として、DragonForceランサムウェア攻撃者がMicrosoft TeamsのTURN relayサーバーを悪用し、Go製RAT Backdoor.TurnのC2通信を正規Teams通信に紛れ込ませた事例が報告された。攻撃者は匿名visitor tokenを取得し、MicrosoftのTURN relay経由でQUICセッションを確立することで、被害組織側からはMicrosoft Teamsインフラへの通常アウトバウンド通信に見える形で1〜2か月潜伏したとされる。2025年以降に研究・概念化されていたGhost Calls型のSaaS relay悪用がランサムウェア実運用で確認された点が重要。日本企業では、Teams等の正規SaaS宛通信を過度に信頼する検知設計、CASB/SASE、EDR、DNS/QUICログ相関、Teams TURN通信の異常監視を見直す必要がある。",
-      "ステータス": "継続（最終観測: 2026年6月）",
+      "最新の主要活動": "2026年6月17〜18日、Broadcom SymantecおよびCarbon Blackの分析として、DragonForceランサムウェア攻撃者がMicrosoft TeamsのTURN relayサーバーを悪用し、Go製RAT Backdoor.TurnのC2通信を正規Teams通信に紛れ込ませた事例が報告された。攻撃者は匿名visitor tokenを取得し、MicrosoftのTURN relay経由でQUICセッションを確立することで、被害組織側からはMicrosoft Teamsインフラへの通常アウトバウンド通信に見える形で1〜2か月潜伏したとされる。2025年以降に研究・概念化されていたGhost Calls型のSaaS relay悪用がランサムウェア実運用で確認された点が重要。日本企業では、Teams等の正規SaaS宛通信を過度に信頼する検知設計、CASB/SASE、EDR、DNS/QUICログ相関、Teams TURN通信の異常監視を見直す必要がある。",
+      "ステータス": "新規（最終観測: 2026年6月）",
       "情報源": [
         "Broadcom Symantec - Hidden in Teams: DragonForce Attackers Weaponize Microsoft Teams Infrastructure for Covert C2 - https://www.security.com/threat-intelligence/dragonforce-msteams-backdoor",
-        "The Hacker News - DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic - https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
         "SecurityWeek - Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack - https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/",
-        "SC Media - Attackers drop DragonForce ransomware leveraging MS Teams relay systems - https://www.scworld.com/news/attackers-drop-dragonforce-ransomware-leveraging-ms-teams-relay",
+        "Security Affairs - DragonForce hid inside Microsoft Teams and nobody noticed for two months - https://securityaffairs.com/193801/security/dragonforce-hid-inside-microsoft-teams-and-nobody-noticed-for-two-months.html",
         "TechRadar - Microsoft Teams users beware: relays hit by ransomware hackers looking to hide malicious traffic - https://www.techradar.com/pro/security/microsoft-teams-users-beware-relays-hit-by-ransomware-hackers-looking-to-hide-malicious-traffic"
       ]
     }
