@@ -1,5 +1,3 @@
-【JSON例】
-
 {
   "date": "2026-07-02",
   "actors": [
@@ -861,63 +859,4 @@
       ]
     }
   ]
-}
-
-
-
-【schema】
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "CTI COP Schema v0.1",
-  "type": "object",
-  "required": [
-    "date",
-    "actors"
-  ],
-  "properties": {
-    "date": {
-      "type": "string"
-    },
-    "actors": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "属性",
-          "アクター",
-          "カテゴリ",
-          "戦略意図",
-          "日本にとっての重要性",
-          "最新の主要活動",
-          "情報源"
-        ],
-        "properties": {
-          "属性": {
-            "type": "string"
-          },
-          "アクター": {
-            "type": "string"
-          },
-          "カテゴリ": {
-            "type": "string"
-          },
-          "戦略意図": {
-            "type": "string"
-          },
-          "日本にとっての重要性": {
-            "type": "string"
-          },
-          "最新の主要活動": {
-            "type": "string"
-          },
-          "情報源": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  }
 }
