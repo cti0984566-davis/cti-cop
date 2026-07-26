@@ -1,0 +1,113 @@
+{
+  "注記": "前回セッションのlatest.jsonが本セッションにアップロードされなかったため、差分更新ではなく今回確認できた新規・更新分のみを収録しています。次回セッション開始時に既存ファイルを再アップロードいただければ、本ファイルとマージの上で差分更新を行います。",
+  "更新日": "2026-07-21",
+  "脅威アクター": [
+    {
+      "ID": "RU-FSB-C16",
+      "名称": "FSB第16センター（Berserk Bear / Energetic Bear / Crouching Yeti / Dragonfly / Ghost Blizzard / Static Tundra）",
+      "国": "ロシア",
+      "分類": "国家支援型APT（諜報・重要インフラ偵察）",
+      "戦略的意図": "重要インフラ（通信、防衛産業基盤、エネルギー、金融、州・地方政府、医療）への持続的アクセス確保。平時の諜報活動と有事の破壊工作準備の両面を持つと評価される。",
+      "日本関連度": "中（直接的な対日攻撃の確認事例は本セッション時点でなし。ただし同種の手法（SNMP設定不備悪用）は国内の未管理ネットワーク機器にも適用可能なため注意）",
+      "最新動向": "2026年7月13日、NSA・CISA・FBI・DC3および13か国19機関が共同アドバイザリAA26-194Aを公表。SNMPコミュニティ文字列の悪用、Cisco Smart Installの悪用により、設定不備のあるルーター等ネットワーク機器を日和見的に侵害していると指摘。同日、EU・英国が同組織関連の個人・団体に制裁を発表（ポーランドのエネルギー網攻撃等が根拠）。",
+      "MITRE_ATTACK": ["T1046", "T1602", "T1078"],
+      "活動状況": "活発（10年以上継続、2026年7月時点で活動継続確認）",
+      "情報源": [
+        "CISA「Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting」AA26-194A (2026-07-13) - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
+        "France24「EU, UK hit Russia with joint sanctions over cyber attacks」(2026-07-13) - https://www.france24.com/en/live-news/20260713-eu-uk-hit-russia-with-joint-sanctions-over-cyber-attacks"
+      ]
+    },
+    {
+      "ID": "RU-GRU-SANDWORM",
+      "名称": "Sandworm / APT44（GRU Unit 74455）",
+      "国": "ロシア",
+      "分類": "国家支援型APT（破壊工作・諜報）",
+      "戦略的意図": "ウクライナの戦時経済（穀物・エネルギー・物流）への持続的破壊工作。NotPetya以来の大規模破壊能力を保持。",
+      "日本関連度": "低〜中（直接の対日攻撃事例なし。ただしOT環境を狙うワイパー手法は日本の重要インフラ事業者にも参考となる脅威モデル）",
+      "最新動向": "【継続・低活動ではない】ESETの報告（2025年11月）以降の大規模ワイパー展開が引き続き参照される状態。本セッション対象期間（2026年7月17〜20日）中の新規の確定インシデントは確認できなかった。",
+      "MITRE_ATTACK": ["T1485", "T1490"],
+      "活動状況": "継続（新規確認事案なし、モニタリング継続）",
+      "情報源": [
+        "The Record from Recorded Future News「Russia's Sandworm hackers deploying wipers against Ukraine's grain industry」(2025-11) - https://therecord.media/russia-sandworm-grain-wipers"
+      ]
+    },
+    {
+      "ID": "US-CRIM-INC",
+      "名称": "Inc ランサムウェア（RaaS）",
+      "国": "不明（RaaS、アフィリエイト型）",
+      "分類": "サイバー犯罪（ランサムウェア・アズ・ア・サービス）",
+      "戦略的意図": "金銭目的。SonicWall SMA1000ゼロデイの事前悪用により、公開パッチ前の初期アクセス市場での優位性を確保。",
+      "日本関連度": "中（SonicWall製品は国内でも導入例あり、パッチ未適用機器はリスク対象）",
+      "最新動向": "2026年6月22日以降、CVE-2026-15409／CVE-2026-15410をゼロデイとして悪用（Rapid7観測）。7月14日SonicWall公表、CISA KEV登録。7月17日連邦機関是正期限。",
+      "MITRE_ATTACK": ["T1190", "T1068", "T1078"],
+      "活動状況": "活発",
+      "情報源": [
+        "Dark Reading「Inc Ransomware Exploits SonicWall SMA Zero-Days」(2026-07) - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+        "Volexity「Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation」(2026-07-17) - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/"
+      ]
+    },
+    {
+      "ID": "UNKNOWN-UTA0533",
+      "名称": "UTA0533（Volexity命名、素性未特定）",
+      "国": "不明",
+      "分類": "標的型侵入アクター（ゼロデイ使用能力あり）",
+      "戦略的意図": "不明（諜報目的か金銭目的か未確定。ゼロデイの事前入手能力からリソース潤沢な組織と推定）",
+      "日本関連度": "低（現時点で対日事案の確認なし）",
+      "最新動向": "2026年6月22日から公表前のSonicWall SMA1000ゼロデイ（CVE-2026-15409/15410）を悪用してインシデント対応事案が発生。Volexityが2026年7月17日付で技術詳細を公表。",
+      "MITRE_ATTACK": ["T1190", "T1068"],
+      "活動状況": "活発（新規追跡開始）",
+      "情報源": [
+        "The Hacker News「SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access」(2026-07) - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html"
+      ]
+    },
+    {
+      "ID": "AI-AGENT-JADEPUFFER",
+      "名称": "JADEPUFFER（Sysdig命名、エージェント型ランサムウェア）",
+      "国": "不明（攻撃主体の国籍不明）",
+      "分類": "新興アクター類型（AIエージェント駆動型ランサムウェア・恐喝）",
+      "戦略的意図": "金銭目的の恐喝。ただし本件では暗号鍵が保存されずランサム支払いをしても復旧不可能であったことから、実質的にはデータ破壊工作の可能性。",
+      "日本関連度": "低（直接の対日事案なし）。ただし国内でも自社ホスト型LLM/AIエージェント基盤の急速な展開に伴い、同種の手法が国内でも再現されうる点は要注視。",
+      "最新動向": "2026年7月1日、Sysdigが公表した調査で、LLMが偵察・認証情報窃取・横展開・権限昇格・暗号化・恐喝ノート送付までを人手を介さず自律実行した初の事例と評価。Langflowの既知脆弱性（CVE-2025-3248）を突破口として使用。対象期間中も業界内での議論が継続。",
+      "MITRE_ATTACK": ["T1190", "T1552", "T1021", "T1486"],
+      "活動状況": "単発事例として観測（継続的な活動有無は未確認）",
+      "情報源": [
+        "Sysdig「JADEPUFFER: Agentic ransomware for automated database extortion」(2026-07-01) - https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+        "CyberScoop「Sysdig clocks first documented case of agentic ransomware」(2026-07) - https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/"
+      ]
+    }
+  ],
+  "個別インシデント_企業単位": [
+    {
+      "企業名": "ニチレイグループ（日本）",
+      "事象概要": "2026年7月13日発生の不正アクセスによるシステム障害。冷蔵倉庫入出庫・冷凍食品出荷業務が停止し、KFC全店舗規模のサプライチェーン障害に波及。",
+      "ステータス": "継続（7月17日より業務順次再開、個人情報漏えいの可能性は調査継続中）",
+      "情報源": [
+        "JAPANSecuritySummit Update「ニチレイへのサイバー攻撃が示したサプライチェーンリスク」(2026-07-14) - https://japansecuritysummit.org/2026/07/14690/"
+      ]
+    },
+    {
+      "企業名": "fairlife, LLC（コカ・コーラ子会社、米国）",
+      "事象概要": "2026年7月16日、ランサムウェア関連事案により米国内生産システムの一部に不正アクセス。米国内生産を一時停止。",
+      "ステータス": "新規（対象期間中に発生・報道）",
+      "情報源": [
+        "BleepingComputer「Coca-Cola says Fairlife ransomware attack halts US dairy production」(2026-07-16) - https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/"
+      ]
+    },
+    {
+      "企業名": "Craneware（英・医療billingソフトウェア）",
+      "事象概要": "2026年7月20日、従業員・顧客・パートナーデータの窃取をLSE向け開示で公表。米国内2,000超の病院・薬局が利用するソフトウェアを提供。",
+      "ステータス": "新規",
+      "情報源": [
+        "The Record from Recorded Future News「Software provider to more than 2,000 US hospitals says hackers stole employee and customer data」(2026-07-20) - https://therecord.media/software-provider-for-us-hospitals-customer-data-breach"
+      ]
+    },
+    {
+      "企業名": "KDDI（日本、参考：既報事案の継続）",
+      "事象概要": "ISP事業者向けメールシステムへの不正アクセス（6月17日確認、7月6日確定値公表：メールアドレス1,223万件、うちパスワード761万件）。原因の第三者製ソフトウェアの脆弱性はKDDI確認時点でベンダー未認識のゼロデイ状態だったと判明。",
+      "ステータス": "継続（本セッション対象期間中の新規進展は確認できず、背景情報として記録）",
+      "情報源": [
+        "セキュリティ対策Lab「KDDI、メールシステムへの不正アクセスで1,223万件のメールアドレスが漏洩」(2026-07-06) - https://rocket-boys.co.jp/security-measures-lab/kddi-isp-mail-unauthorized-access-leak/"
+      ]
+    }
+  ]
+}

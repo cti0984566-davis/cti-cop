@@ -1,6 +1,6 @@
 {
-  "注記": "前回セッションのlatest.jsonが本セッションにアップロードされなかったため、差分更新ではなく今回確認できた新規・更新分のみを収録しています。次回セッション開始時に既存ファイルを再アップロードいただければ、本ファイルとマージの上で差分更新を行います。",
-  "更新日": "2026-07-21",
+  "注記": "2026年7月26日時点の状況を反映して更新済み。CISA共同アドバイザリAA26-204A（LAUNDRY BEAR/Void Blizzard、Zimbraゼロデイ悪用）、Lazarus Group（北朝鮮国家系暗号資産窃取）、北朝鮮内部粛清事案、Salt Typhoon（中国、通信インフラ持続的侵害）を新規追加。単発完結型で継続的キャンペーンが確認できないByteToBreach（ルーマニア地籍庁侵害）は脅威アクター一覧から削除（個別インシデント記録は維持）。次回セッションでも本ファイルを再アップロードいただくことで差分更新を継続する。",
+  "更新日": "2026-07-26",
   "脅威アクター": [
     {
       "ID": "RU-FSB-C16",
@@ -9,9 +9,9 @@
       "分類": "国家支援型APT（諜報・重要インフラ偵察）",
       "戦略的意図": "重要インフラ（通信、防衛産業基盤、エネルギー、金融、州・地方政府、医療）への持続的アクセス確保。平時の諜報活動と有事の破壊工作準備の両面を持つと評価される。",
       "日本関連度": "中（直接的な対日攻撃の確認事例は本セッション時点でなし。ただし同種の手法（SNMP設定不備悪用）は国内の未管理ネットワーク機器にも適用可能なため注意）",
-      "最新動向": "2026年7月13日、NSA・CISA・FBI・DC3および13か国19機関が共同アドバイザリAA26-194Aを公表。SNMPコミュニティ文字列の悪用、Cisco Smart Installの悪用により、設定不備のあるルーター等ネットワーク機器を日和見的に侵害していると指摘。同日、EU・英国が同組織関連の個人・団体に制裁を発表（ポーランドのエネルギー網攻撃等が根拠）。",
+      "最新動向": "2026年7月13日公表のCISA共同アドバイザリAA26-194A（SNMPコミュニティ文字列・Cisco Smart Install悪用による日和見的侵害）およびEU・英国の関連制裁が引き続き最新の確認情報。2026年7月24日〜26日の対象期間中、これを更新する新たな確認事案は見当たらず、継続監視の状態。",
       "MITRE_ATTACK": ["T1046", "T1602", "T1078"],
-      "活動状況": "活発（10年以上継続、2026年7月時点で活動継続確認）",
+      "活動状況": "活発（10年以上継続、直近1週間の新規確認事案なし）",
       "情報源": [
         "CISA「Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting」AA26-194A (2026-07-13) - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
         "France24「EU, UK hit Russia with joint sanctions over cyber attacks」(2026-07-13) - https://www.france24.com/en/live-news/20260713-eu-uk-hit-russia-with-joint-sanctions-over-cyber-attacks"
@@ -24,11 +24,27 @@
       "分類": "国家支援型APT（破壊工作・諜報）",
       "戦略的意図": "ウクライナの戦時経済（穀物・エネルギー・物流）への持続的破壊工作。NotPetya以来の大規模破壊能力を保持。",
       "日本関連度": "低〜中（直接の対日攻撃事例なし。ただしOT環境を狙うワイパー手法は日本の重要インフラ事業者にも参考となる脅威モデル）",
-      "最新動向": "【継続・低活動ではない】ESETの報告（2025年11月）以降の大規模ワイパー展開が引き続き参照される状態。本セッション対象期間（2026年7月17〜20日）中の新規の確定インシデントは確認できなかった。",
+      "最新動向": "2025年11月のESET報告（穀物産業向けワイパー展開）以降、大きな公開活動なし。2026年7月24日〜26日の対象期間中も新規の確定インシデントは確認できず、監視継続。",
       "MITRE_ATTACK": ["T1485", "T1490"],
       "活動状況": "継続（新規確認事案なし、モニタリング継続）",
       "情報源": [
         "The Record from Recorded Future News「Russia's Sandworm hackers deploying wipers against Ukraine's grain industry」(2025-11) - https://therecord.media/russia-sandworm-grain-wipers"
+      ]
+    },
+    {
+      "ID": "RU-APT-LAUNDRYBEAR",
+      "名称": "LAUNDRY BEAR（別名：Void Blizzard、CL-STA-1114、TA488、UNK_PitStop）",
+      "国": "ロシア",
+      "分類": "国家支援型APT（諜報・メールデータ窃取）",
+      "戦略的意図": "ロシア連邦のための機密情報収集、特にメールデータの秘匿的取得を主目的とする。2024年以降、NATO加盟国およびウクライナへの関心を強めている。",
+      "日本関連度": "低〜中（対日事案は現時点で未確認。Zimbra Collaboration Suite等のウェブメール基盤を利用する国内組織は、同種手口の潜在的標的となり得る）",
+      "最新動向": "2026年7月23日、CISA・NSA・FBI等27の国内外機関が共同アドバイザリAA26-204Aを発出。Zimbra WebmailのXSSゼロデイ（CVE-2025-66376、通称「Улей／Ulej」、悪用ペイロード「ZimReaper」）を悪用し、メール閲覧のみで感染するゼロクリック手法により、2025年7月以降、政府・防衛産業基盤・エネルギー・教育・メディア・法執行・NGO等の西側組織10社以上から、過去90日分のメール、認証情報、2FAトークンを窃取。不正な新規アプリパスコード（ZimraWeb）発行によるMFA回避も確認された。脆弱性は2025年11月にパッチ提供済みだが、未パッチサーバーへの攻撃は本対象期間中も継続中とみられる。",
+      "MITRE_ATTACK": ["T1566", "T1114", "T1556", "T1078"],
+      "活動状況": "活発（新規追跡開始）",
+      "情報源": [
+        "CISA「Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite」AA26-204A (2026-07-23) - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+        "CyberScoop「Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries」(2026-07-23) - https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
+        "The Register「Year-long Russian attacks infect users as soon as they look at an email」(2026-07-23) - https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358"
       ]
     },
     {
@@ -38,9 +54,9 @@
       "分類": "サイバー犯罪（ランサムウェア・アズ・ア・サービス）",
       "戦略的意図": "金銭目的。SonicWall SMA1000ゼロデイの事前悪用により、公開パッチ前の初期アクセス市場での優位性を確保。",
       "日本関連度": "中（SonicWall製品は国内でも導入例あり、パッチ未適用機器はリスク対象）",
-      "最新動向": "2026年6月22日以降、CVE-2026-15409／CVE-2026-15410をゼロデイとして悪用（Rapid7観測）。7月14日SonicWall公表、CISA KEV登録。7月17日連邦機関是正期限。",
+      "最新動向": "2026年6月22日以降のCVE-2026-15409／CVE-2026-15410ゼロデイ悪用、7月14日SonicWall公表、CISA KEV登録という一連の経緯以降、2026年7月24日〜26日の対象期間中に新たな確認事案は得られておらず、監視継続の状態。",
       "MITRE_ATTACK": ["T1190", "T1068", "T1078"],
-      "活動状況": "活発",
+      "活動状況": "活発（新規確認事案なし、監視継続）",
       "情報源": [
         "Dark Reading「Inc Ransomware Exploits SonicWall SMA Zero-Days」(2026-07) - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
         "Volexity「Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation」(2026-07-17) - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/"
@@ -51,13 +67,14 @@
       "名称": "UTA0533（Volexity命名、素性未特定）",
       "国": "不明",
       "分類": "標的型侵入アクター（ゼロデイ使用能力あり）",
-      "戦略的意図": "不明（諜報目的か金銭目的か未確定。ゼロデイの事前入手能力からリソース潤沢な組織と推定）",
+      "戦略的意図": "不明（諜報目的か金銭目的か未確定。ゼロデイの事前入手能力からリソース潤沢な組織と推定）。認証情報・アクティブセッション・多要素認証シードの窃取により長期的かつステルス性の高いアクセス確保を志向。",
       "日本関連度": "低（現時点で対日事案の確認なし）",
-      "最新動向": "2026年6月22日から公表前のSonicWall SMA1000ゼロデイ（CVE-2026-15409/15410）を悪用してインシデント対応事案が発生。Volexityが2026年7月17日付で技術詳細を公表。",
-      "MITRE_ATTACK": ["T1190", "T1068"],
-      "活動状況": "活発（新規追跡開始）",
+      "最新動向": "2026年7月21日時点で判明していたSonicWall SMA1000ゼロデイ（CVE-2026-15409/15410）の事前悪用（6月22日以降開始）に関する分析以降、2026年7月24日〜26日の対象期間中に新たな追跡情報は確認できておらず、監視継続。",
+      "MITRE_ATTACK": ["T1190", "T1068", "T1552", "T1078"],
+      "活動状況": "活発（新規確認事案なし、監視継続）",
       "情報源": [
-        "The Hacker News「SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access」(2026-07) - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html"
+        "The Hacker News「SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access」(2026-07-21) - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "Help Net Security「SonicWall SMA zero-days were exploited weeks before disclosure」(2026-07-21) - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/"
       ]
     },
     {
@@ -67,28 +84,136 @@
       "分類": "新興アクター類型（AIエージェント駆動型ランサムウェア・恐喝）",
       "戦略的意図": "金銭目的の恐喝。ただし本件では暗号鍵が保存されずランサム支払いをしても復旧不可能であったことから、実質的にはデータ破壊工作の可能性。",
       "日本関連度": "低（直接の対日事案なし）。ただし国内でも自社ホスト型LLM/AIエージェント基盤の急速な展開に伴い、同種の手法が国内でも再現されうる点は要注視。",
-      "最新動向": "2026年7月1日、Sysdigが公表した調査で、LLMが偵察・認証情報窃取・横展開・権限昇格・暗号化・恐喝ノート送付までを人手を介さず自律実行した初の事例と評価。Langflowの既知脆弱性（CVE-2025-3248）を突破口として使用。対象期間中も業界内での議論が継続。",
+      "最新動向": "2026年7月1日のSysdig初回報告（LLMが偵察・認証情報窃取・横展開・権限昇格・暗号化・恐喝ノート送付までを自律実行した初の事例）以降、Hornetsecurity等の月次脅威レポートでも継続的に参照される代表事例となっているが、2026年7月24日〜26日の対象期間中に新たな追加事案は報告されていない。",
       "MITRE_ATTACK": ["T1190", "T1552", "T1021", "T1486"],
-      "活動状況": "単発事例として観測（継続的な活動有無は未確認）",
+      "活動状況": "単発事例として観測（継続的な活動有無は未確認、監視継続）",
       "情報源": [
         "Sysdig「JADEPUFFER: Agentic ransomware for automated database extortion」(2026-07-01) - https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
-        "CyberScoop「Sysdig clocks first documented case of agentic ransomware」(2026-07) - https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/"
+        "CyberScoop「Sysdig clocks first documented case of agentic ransomware」(2026-07) - https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/",
+        "Hornetsecurity「Monthly Threat Report」(2026-07) - https://www.hornetsecurity.com/en/blog/monthly-threat-report/"
+      ]
+    },
+    {
+      "ID": "JP-CRIM-RANSOMHOUSE",
+      "名称": "RansomHouse",
+      "国": "不明（拠点非公開、RaaS/恐喝特化型）",
+      "分類": "サイバー犯罪（データ窃取・二重恐喝型）",
+      "戦略的意図": "企業から顧客情報等を窃取し、暴露をちらつかせて金銭を要求する恐喝手法を主軸とする。ファイル暗号化よりデータ窃取・暴露を重視する傾向。",
+      "日本関連度": "高（2026年7月21〜22日、日本の冷凍食品・物流大手ニチレイグループへの攻撃について犯行声明を発出。イオン系列、ケンタッキーフライドチキン、くら寿司等の取引先に業務影響が波及）",
+      "最新動向": "2026年7月21〜22日の犯行声明発出後、ニチレイは2026年7月24日、冷蔵倉庫の入出庫・冷凍食品出荷業務が全面復旧し攻撃前の状態に業務が正常化したと発表（NHK報道）。ただしランサムウェア関与や情報漏洩の有無については、ニチレイ側から公式な確定情報は引き続き示されておらず、RansomHouse側の一方的な主張との乖離が本対象期間中も継続している。",
+      "MITRE_ATTACK": ["T1567", "T1486"],
+      "活動状況": "活発（業務復旧後も帰属・被害範囲は係争中）",
+      "情報源": [
+        "ITmedia NEWS「ニチレイへの攻撃、ランサム集団「RansomHouse」が犯行声明 アスクルを攻撃したグループか」(2026-07-22) - https://www.itmedia.co.jp/news/articles/2607/22/news064.html",
+        "NHKニュース「ニチレイ サイバー攻撃によるシステム障害から復旧 業務正常化」(2026-07-24) - https://news.web.nhk/newsweb/na/na-k10015185471000",
+        "NHKニュース「ニチレイ ハッカー集団が犯行声明 「ランサムウエア」攻撃か」(2026-07-22) - https://news.web.nhk/newsweb/na/na-k10015182261000"
+      ]
+    },
+    {
+      "ID": "IR-APT42",
+      "名称": "APT42（別名：Mint Sandstorm、TA453、Yellow Garuda）",
+      "国": "イラン",
+      "分類": "国家支援型APT（IRGC-IO傘下、電子諜報）",
+      "戦略的意図": "政府・防衛関係者およびその家族を含む高価値標的に対する長期的な認証情報窃取・監視。信頼関係構築型のソーシャルエンジニアリングを主軸とする。",
+      "日本関連度": "低（現時点で対日事案は未確認）。ただし2026年2月開戦のイラン戦争以降の中東情勢緊張継続に伴うグローバルな波及効果には留意。",
+      "最新動向": "2026年7月21日、DarkAtlas社によるLLMを用いたペルソナ生成型フィッシングおよび改良版TAMECATバックドアの報告以降、2026年7月24日〜26日の対象期間中に新たな確認事案は得られておらず、監視継続。",
+      "MITRE_ATTACK": ["T1566", "T1204", "T1059.001", "T1555"],
+      "活動状況": "活発（新規確認事案なし、監視継続）",
+      "情報源": [
+        "Cyber Security News「APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials」(2026-07-21) - https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware/",
+        "GBHackers「Iran-Linked APT42 Uses AI-Assisted Phishing and TAMECAT Backdoor to Target Defense Officials」(2026-07-21) - https://gbhackers.com/apt42-uses-ai-assisted-phishing/"
+      ]
+    },
+    {
+      "ID": "RU-CRIM-MEDIALAND",
+      "名称": "Media Land / ML.Cloud（バレットプルーフホスティング事業者）",
+      "国": "ロシア（St. Petersburg拠点）",
+      "分類": "サイバー犯罪インフラ提供者（バレットプルーフホスティング）",
+      "戦略的意図": "ランサムウェア・フィッシング・ブルートフォース攻撃等を行う顧客に、法執行機関の摘発要求を無視する耐性のあるホスティングインフラを提供し金銭的利益を得る。",
+      "日本関連度": "中（LockBit、BlackSuit、Play等の著名ランサムウェアグループを支援したとされ、国内企業も間接的な標的となり得るインフラ層の脅威事例）",
+      "最新動向": "2026年7月14日の米司法省による訴追（Alexander Volosovik、Kirill Zatolokin、Yulia Pankovaの3名およびMedia Land、ML.Cloudの2社、被害総額6,200万ドル超）、および7月13日のEU制裁以降、2026年7月24日〜26日の対象期間中に新たな摘発・インフラ動向は確認できておらず、起訴段階のまま監視継続（被告はロシア在住のため身柄拘束は未実施）。",
+      "MITRE_ATTACK": [],
+      "活動状況": "摘発済み（起訴段階、事業継続性は不明、監視継続）",
+      "情報源": [
+        "TechCrunch「US charges Russian 'bulletproof' web hosts over cyberattacks that netted $62M from cybercrime victims」(2026-07-15) - https://techcrunch.com/2026/07/15/us-charges-russian-bulletproof-web-hosts-over-cyberattacks-that-netted-62m-from-cybercrime-victims/",
+        "CNN「Cybercrime: US indicts Russians alleged to be at center of major cybercrime network」(2026-07-14) - https://www.cnn.com/2026/07/14/politics/us-indicts-russia-cybercrime"
+      ]
+    },
+    {
+      "ID": "UNKNOWN-SVCNOW-CVE20266875",
+      "名称": "不明（CVE-2026-6875 悪用アクター、帰属未特定）",
+      "国": "不明",
+      "分類": "サイバー犯罪または国家支援（未特定）",
+      "戦略的意図": "不明。ServiceNow AIプラットフォームの事前認証サンドボックスエスケープRCEを悪用した侵害の最終目的は非公開。",
+      "日本関連度": "中（ServiceNowを利用する官公庁・金融機関等の自己ホスト環境に波及しうるcloud/AIプラットフォーム標的型の脅威）",
+      "最新動向": "2026年7月18日以降のDefused社によるCVE-2026-6875（CVSS 9.5）実悪用観測、7月20-21日のServiceNow社コメント以降、2026年7月24日〜26日の対象期間中に新たな被害組織や活動の確認情報は得られておらず、監視継続。",
+      "MITRE_ATTACK": ["T1190"],
+      "活動状況": "活発（新規確認事案なし、監視継続）",
+      "情報源": [
+        "Help Net Security「ServiceNow pre-auth RCE exploited in the wild (CVE-2026-6875)」(2026-07-20) - https://www.helpnetsecurity.com/2026/07/20/servicenow-cve-2026-6875-exploited/",
+        "The Hacker News「Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution」(2026-07-21) - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
+      ]
+    },
+    {
+      "ID": "KP-STATE-LAZARUS",
+      "名称": "Lazarus Group（別名：TraderTraitor、APT38、Hidden Cobra）",
+      "国": "北朝鮮",
+      "分類": "国家支援型APT（サイバー犯罪型・外貨獲得目的）",
+      "戦略的意図": "国連制裁下での外貨獲得および弾道ミサイル・核開発資金の確保を目的とした暗号資産窃取を、国家的な収益事業として組織的に実施。",
+      "日本関連度": "中〜高（過去に日本の暗号資産交換業者を標的とした実績があり、国内の暗号資産関連事業者・DeFiプロジェクトも潜在的標的となり得る）",
+      "最新動向": "TRM Labsの分析によれば、2026年上半期に北朝鮮関連ハッカーが世界の暗号資産盗難被害額の約3分の2（約6億4,300万ドル）を占めたと報告（2026年7月3日付）。2026年4月にはKelp DAO（LayerZero検証サーバー侵害経由）から約2億9,000万ドルを窃取し、2026年最大の単発被害として記録。2026年7月24日〜26日の対象期間中の新規窃取事案は確認できず、監視継続（同時期に判明した北朝鮮内部粛清事案は本アクターとは別主体、KP-INTERNAL-PURGEを参照）。",
+      "MITRE_ATTACK": ["T1566", "T1195", "T1078", "T1657"],
+      "活動状況": "活発（継続的な収益事業として運用中）",
+      "情報源": [
+        "UPI「North Korea behind two-thirds of crypto theft in H1 2026, report says」(2026-07-03) - https://www.upi.com/Top_News/World-News/2026/07/03/North-Korea-crypto-theft-two-thirds-H1-TRM-Labs/4361783069480/",
+        "South China Morning Post「North Korea's Lazarus suspected of stealing US$290 million in KelpDAO cyberattack」(2026-04-22) - https://www.scmp.com/news/asia/east-asia/article/3350964/north-koreas-lazarus-suspected-stealing-us290-million-kelpdao-cyberattack"
+      ]
+    },
+    {
+      "ID": "KP-INTERNAL-PURGE",
+      "名称": "北朝鮮 偵察総局系元サイバー要員による内部不正事案（特定グループ名なし）",
+      "国": "北朝鮮",
+      "分類": "不祥事（国家サイバー部隊内部の統制崩壊・インサイダー事案）",
+      "戦略的意図": "該当なし。国家に対する外貨獲得任務からの逸脱・私的流用が疑われる事案であり、対外的な戦略意図は伴わない。",
+      "日本関連度": "低（直接の対日影響はないが、北朝鮮の国家サイバー要員の忠誠・統制リスクを示す事例として、離反者による技術流出等の間接的リスクに留意）",
+      "最新動向": "【新規】2026年7月12日、偵察総局傘下サイバー部隊の元メンバーを含む集団が、朝鮮中央銀行および貿易銀行の内部システムを侵害し、国家貿易資金を暗号資産に転換の上、中国系ブローカー経由で洗浄していたとして、平壌の潜伏先で国家保衛省に拘束されたことが、2026年7月24日〜25日にDaily NK経由で国際的に報道された。",
+      "MITRE_ATTACK": ["T1078"],
+      "活動状況": "摘発済み（事案終息、関連動向の継続監視）",
+      "情報源": [
+        "Daily NK（英語版）「North Korea busts elite hacking ring inside its own banks」(2026-07) - https://www.dailynk.com/english/north-korea-elite-bank-hacking-ring-arrested/",
+        "CoinDesk「North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto」(2026-07-25) - https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto"
+      ]
+    },
+    {
+      "ID": "CN-APT-SALTTYPHOON",
+      "名称": "Salt Typhoon（別名：GhostEmperor、RedMike、Operator Panda、FamousSparrow、UNC5807）",
+      "国": "中国",
+      "分類": "国家支援型APT（諜報・通信インフラ持続的侵害）",
+      "戦略的意図": "中国国家安全部（MSS）の指揮下、通信・政府・軍事・運輸・宿泊等のバックボーン／エッジルーターへの持続的アクセスを確保し、有事における通信傍受・妨害能力を含む戦略的インフラ支配を志向。",
+      "日本関連度": "中（現時点で対日組織への直接侵害は未確認だが、通信キャリア・ISP・大学等を標的とする手法は日本の同種インフラにも適用可能。米国・カナダ・英国・NZ・豪州等Five Eyes諸国での継続的被害は、同盟国である日本にとっても情報共有・警戒の対象）",
+      "最新動向": "2026年2月、FBIが「脅威は依然として非常に活発に継続している」と公式確認。既知のCisco機器脆弱性を悪用し、大学・通信事業者を含む標的への侵入を継続中とRecorded Futureが報告。2026年7月24日〜26日の対象期間中の新規侵害事案は確認できず、監視継続。",
+      "MITRE_ATTACK": ["T1190", "T1133", "T1556", "T1071"],
+      "活動状況": "活発（新規追跡開始、長期継続中）",
+      "情報源": [
+        "SecurityWeek「China's Salt Typhoon Hacked Critical Infrastructure Globally for Years」 - https://www.securityweek.com/chinas-salt-typhoon-hacked-critical-infrastructure-globally-for-years/",
+        "SecurityWeek「Salt Typhoon Targeting Old Cisco Vulnerabilities in Fresh Telecom Hacks」 - https://www.securityweek.com/salt-typhoon-targeting-old-cisco-vulnerabilities-in-fresh-telecom-hacks/"
       ]
     }
   ],
   "個別インシデント_企業単位": [
     {
       "企業名": "ニチレイグループ（日本）",
-      "事象概要": "2026年7月13日発生の不正アクセスによるシステム障害。冷蔵倉庫入出庫・冷凍食品出荷業務が停止し、KFC全店舗規模のサプライチェーン障害に波及。",
-      "ステータス": "継続（7月17日より業務順次再開、個人情報漏えいの可能性は調査継続中）",
+      "事象概要": "2026年7月14日発生の不正アクセスによるシステム障害。冷蔵倉庫入出庫・冷凍食品出荷業務が停止し、イオン系列スーパー、ケンタッキーフライドチキン、くら寿司等を含むサプライチェーン障害に波及。7月21〜22日、「RansomHouse」を名乗るハッカー集団がダークウェブ上で犯行声明を発出（本JSON内RansomHouseエントリ参照）。",
+      "ステータス": "収束方向（2026年7月24日、倉庫からの出庫・冷凍食品の出荷業務が全面復旧し攻撃前の状態に業務が正常化したとニチレイ・NHKが発表。ただしランサムウェア関与・個人情報漏えいの有無は引き続き調査中）",
       "情報源": [
-        "JAPANSecuritySummit Update「ニチレイへのサイバー攻撃が示したサプライチェーンリスク」(2026-07-14) - https://japansecuritysummit.org/2026/07/14690/"
+        "JAPANSecuritySummit Update「ニチレイへのサイバー攻撃が示したサプライチェーンリスク」(2026-07-14) - https://japansecuritysummit.org/2026/07/14690/",
+        "NHKニュース「ニチレイ サイバー攻撃によるシステム障害から復旧 業務正常化」(2026-07-24) - https://news.web.nhk/newsweb/na/na-k10015185471000"
       ]
     },
     {
       "企業名": "fairlife, LLC（コカ・コーラ子会社、米国）",
-      "事象概要": "2026年7月16日、ランサムウェア関連事案により米国内生産システムの一部に不正アクセス。米国内生産を一時停止。",
-      "ステータス": "新規（対象期間中に発生・報道）",
+      "事象概要": "2026年7月16日、ランサムウェア関連事案により米国内生産システムの一部に不正アクセス。米国内生産を一時停止。Anubisランサムウェアグループが7月20日にリークサイトへ掲載。",
+      "ステータス": "継続（2026年7月24日〜26日の対象期間中、新たな進展は確認できず、背景情報として記録）",
       "情報源": [
         "BleepingComputer「Coca-Cola says Fairlife ransomware attack halts US dairy production」(2026-07-16) - https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/"
       ]
@@ -96,7 +221,7 @@
     {
       "企業名": "Craneware（英・医療billingソフトウェア）",
       "事象概要": "2026年7月20日、従業員・顧客・パートナーデータの窃取をLSE向け開示で公表。米国内2,000超の病院・薬局が利用するソフトウェアを提供。",
-      "ステータス": "新規",
+      "ステータス": "継続（2026年7月24日〜26日の対象期間中、新たな進展は確認できず）",
       "情報源": [
         "The Record from Recorded Future News「Software provider to more than 2,000 US hospitals says hackers stole employee and customer data」(2026-07-20) - https://therecord.media/software-provider-for-us-hospitals-customer-data-breach"
       ]
@@ -104,9 +229,25 @@
     {
       "企業名": "KDDI（日本、参考：既報事案の継続）",
       "事象概要": "ISP事業者向けメールシステムへの不正アクセス（6月17日確認、7月6日確定値公表：メールアドレス1,223万件、うちパスワード761万件）。原因の第三者製ソフトウェアの脆弱性はKDDI確認時点でベンダー未認識のゼロデイ状態だったと判明。",
-      "ステータス": "継続（本セッション対象期間中の新規進展は確認できず、背景情報として記録）",
+      "ステータス": "継続（2026年7月24日〜26日の対象期間中、新規進展は確認できず、背景情報として記録）",
       "情報源": [
         "セキュリティ対策Lab「KDDI、メールシステムへの不正アクセスで1,223万件のメールアドレスが漏洩」(2026-07-06) - https://rocket-boys.co.jp/security-measures-lab/kddi-isp-mail-unauthorized-access-leak/"
+      ]
+    },
+    {
+      "企業名": "Suno（米・AI音楽生成プラットフォーム）",
+      "事象概要": "2025年11月25日発生（自己増殖型npmワーム「Shai-Hulud」による開発者認証情報窃取を起点とするサプライチェーン侵害）のデータ侵害が、2026年7月20-21日にHave I Been Pwnedへの登録により初めて公になった。約5,528万件のメールアドレス、氏名、住所、電話番号、Stripe経由の部分的カード情報が流出。",
+      "ステータス": "継続（2026年7月24日〜26日の対象期間中、新たな進展は確認できず）",
+      "情報源": [
+        "TechCrunch「AI music generator Suno breach affects 55M users, per Have I Been Pwned」(2026-07-21) - https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/"
+      ]
+    },
+    {
+      "企業名": "ANCPI（ルーマニア国立地籍・不動産広告庁）",
+      "事象概要": "2026年7月14日、実行主体ByteToBreach（正規資格情報を用いた侵入で土地登記データベースを完全消去、本産不動産取引が全面停止）による事案。ByteToBreachは単発の完結型犯行であり継続的キャンペーンの確認ができないため、2026年7月26日更新分より脅威アクター一覧からは削除し、本インシデント記録としてのみ保持する。",
+      "ステータス": "継続（オフラインバックアップによる部分復旧中、2026年7月24日〜26日の対象期間中の新たな進展は確認できず）",
+      "情報源": [
+        "Cybernews「Hacker wipes European country's entire land registry database, paralyzing real-estate market」(2026-07-20) - https://cybernews.com/security/hacker-deletes-romanian-land-registry-database/"
       ]
     }
   ]
