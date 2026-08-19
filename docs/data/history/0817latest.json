@@ -1,5 +1,3 @@
-【JSON例】
-
 {
   "注記": "2026年8月17日時点の状況を反映して更新済み。北朝鮮Lazarus GroupについてWindowsゼロデイ(CVE-2026-68820)悪用によるOperation Dream Job新展開（新型バックドアTroy、FudModule 3.1）を追加。中国語話者の自律型AIエージェントアクター(Hermes/OpenClaw運用主体)について台湾政府機関への標的化というtargeting変化を確認し更新。中国系ランサムウェアアクターStorm-1175を新規追加（Medusaから新型StormEncryptorへ移行、N-central認証バイパスCVE-2026-18577悪用）。ウクライナHUR傘下Cyber Corpsを新規追加（ロシアWildberriesへのサイバー・物理連携作戦）。データ恐喝グループClopを新規追加（PTC Windchill脆弱性悪用によるShell/GE/Philips等43組織攻撃）。RansomHouseについてニチレイ事案の被害内容確定（従業員個人情報漏えい）を反映し更新。US-CRIM-INC、AI-AGENT-JADEPUFFER、RU-CRIM-MEDIALAND、UNKNOWN-SVCNOW-CVE20266875は活動収束・継続性未確認のため削除。他の国家支援型アクターは本対象期間中に新規の確定情報が得られなかったため、監視継続のステータスを維持。次回セッションでも本ファイルを再アップロードいただくことで差分更新を継続する。",
   "date": "2026-08-17",
@@ -183,62 +181,4 @@
       ]
     }
   ]
-}
-
-
-【schema】
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "CTI COP Schema v0.1",
-  "type": "object",
-  "required": [
-    "date",
-    "actors"
-  ],
-  "properties": {
-    "date": {
-      "type": "string"
-    },
-    "actors": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "属性",
-          "アクター",
-          "カテゴリ",
-          "戦略意図",
-          "日本にとっての重要性",
-          "最新の主要活動",
-          "情報源"
-        ],
-        "properties": {
-          "属性": {
-            "type": "string"
-          },
-          "アクター": {
-            "type": "string"
-          },
-          "カテゴリ": {
-            "type": "string"
-          },
-          "戦略意図": {
-            "type": "string"
-          },
-          "日本にとっての重要性": {
-            "type": "string"
-          },
-          "最新の主要活動": {
-            "type": "string"
-          },
-          "情報源": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  }
 }
