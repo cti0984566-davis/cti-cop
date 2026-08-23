@@ -1,6 +1,6 @@
 {
-  "注記": "2026年8月18日時点の状況を反映して更新済み。中国系脅威クラスタSilkParasiteを新規追加（Bitdefender Labs公表、中央アジア政府機関を標的とした約1年間の諜報活動、7種のモジュール型RATのうち5種が新規確認、AI支援開発の痕跡あり）。イラン関連とみられる米国水道・下水道インフラ攻撃キャンペーン主体を新規追加（2026年イスラエル・イラン戦争下での代理報復とみられるOT標的化、少なくとも12州に拡大、公式帰属は未確定）。中国語話者の自律型AIエージェントアクター(Hermes/OpenClaw運用主体)について、台湾デジタル発展部による7月攻撃の公式確認と、原子力安全機関及び少なくとも7社のエネルギー企業への二次的標的拡大の報告を反映し更新。その他の国家支援型アクター（Berserk Bear、Sandworm/APT44、LAUNDRY BEAR、Storm-2945、Salt Typhoon、OctLurk/SilkLurk、Lazarus Group、北朝鮮内部不正事案、APT42、UTA0533）は本報告期間（8月18日）中に新規の確定情報が得られなかったため、監視継続のステータスを維持。Storm-1175、Cyber Corps、RansomHouse、Clopは直近の活動が継続中と判断し、既存記載を維持。次回セッションでも本ファイルを再アップロードいただくことで差分更新を継続する。",
-  "date": "2026-08-18",
+  "注記": "2026年8月20〜23日の状況を反映して更新済み。新規追加：①Siemens S7シリーズPLCへのAI生成攻撃ツールによる偵察キャンペーン主体（NSA/CISA/FBI/DOE/EPA共同アドバイザリAA26-231A、2026年8月19日公表、帰属未確定）。②ランサムウェアグループ「The Gentlemen」（Storm-2697）を新規追加。日本の産業機器メーカーAkatake Engineering（静岡県沼津市）を2026年8月21日にリークサイト掲載、加えてアフィリエイトによるAnthropic Claude Code悪用（Gambit Security報告、8月18日頃）が確認されたため重要性が増大。③Operation CameraSwarm実行者（推定ロシア語話者、帰属国不明）を新規追加。ロシア・ウクライナ双方のDahua製IPカメラ14,530台超を侵害（Hunt.io、8月20日公表、活動期間6/17-7/22）。既存アクターの更新：イラン関連の米国水道・下水道インフラ攻撃キャンペーン主体について、2026年8月22〜23日に英Telegraph紙が報道した英国内小規模発電施設への4日間攻撃（イラン関連、発生時期は7月頃と推定）との関連が指摘されたため、対象範囲を英国エネルギー分野にも拡大して記載。Lazarus Groupについて、Bybit社による北朝鮮・偵察総局・Lazarus Groupへの民事訴訟及び資産保全仮差止命令の動向（2026年8月6日一部情報公開）を補足。その他の国家支援型アクター（Berserk Bear、LAUNDRY BEAR、Salt Typhoon、中国語話者AIエージェントアクター(Hermes/OpenClaw)、OctLurk/SilkLurk、Storm-1175、SilkParasite、北朝鮮内部不正事案、APT42、Cyber Corps、UTA0533）は、本報告期間（8月20〜23日）中に新規の確定情報が得られなかったため、監視継続のステータスを維持。RansomHouse、Clopは直近（8月17日時点）の活動継続を確認しているが、本報告期間中の新規進展は確認されなかったため、既存記載を維持し監視継続。次回セッションでも本ファイルを再アップロードいただくことで差分更新を継続する。",
+  "date": "2026-08-23",
   "actors": [
     {
       "属性": "ロシア（国家支援型・FSB第16センター）",
@@ -8,7 +8,7 @@
       "カテゴリ": "国家支援型APT（諜報・重要インフラ偵察）",
       "戦略意図": "重要インフラ（通信、防衛産業基盤、エネルギー、金融、州・地方政府、医療）への持続的アクセス確保。平時の諜報活動と有事の破壊工作準備の両面を持つと評価される。",
       "日本にとっての重要性": "直接的な対日攻撃の確認事例は現時点でなし。ただしSNMP設定不備・Cisco Smart Install悪用等の手法は、国内の未管理ネットワーク機器にも適用可能なため注意を要する。",
-      "最新の主要活動": "2026年7月13日公表のCISA共同アドバイザリAA26-194A（SNMPコミュニティ文字列・Cisco Smart Install悪用による日和見的侵害）以降、本報告期間（8月18日）中の新規確認事案は見当たらず、公開活動未確認。監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新規の確認事案は見当たらず。2026年7月13日公表のCISA共同アドバイザリAA26-194A（SNMPコミュニティ文字列・Cisco Smart Install悪用による日和見的侵害）以降、公開活動未確認。監視継続。",
       "情報源": [
         "CISA「Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting」AA26-194A (2026-07-13) - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
         "France24「EU, UK hit Russia with joint sanctions over cyber attacks」(2026-07-13) - https://www.france24.com/en/live-news/20260713-eu-uk-hit-russia-with-joint-sanctions-over-cyber-attacks"
@@ -20,7 +20,7 @@
       "カテゴリ": "国家支援型APT（破壊工作・諜報）",
       "戦略意図": "ウクライナの戦時経済（穀物・エネルギー・物流）への持続的破壊工作。NotPetya以来の大規模破壊能力を保持。",
       "日本にとっての重要性": "直接の対日攻撃事例なし。ただしOT環境を狙うワイパー手法は、日本の重要インフラ事業者にとっても参考となる脅威モデル。",
-      "最新の主要活動": "2025年11月のESET報告（穀物産業向けワイパー展開）以降、大きな公開活動なし。本報告期間（8月18日）中も新規の確定インシデントは確認できず、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新規の確定インシデントは確認できず。2025年11月のESET報告（穀物産業向けワイパー展開）以降、大きな公開活動なし。監視継続。",
       "情報源": [
         "The Record from Recorded Future News「Russia's Sandworm hackers deploying wipers against Ukraine's grain industry」(2025-11) - https://therecord.media/russia-sandworm-grain-wipers"
       ]
@@ -30,11 +30,12 @@
       "アクター": "LAUNDRY BEAR（別名：Void Blizzard、CL-STA-1114、TA488、UNK_PitStop）",
       "カテゴリ": "国家支援型APT（諜報・メールデータ窃取）",
       "戦略意図": "ロシア連邦のための機密情報収集、特にメールデータの秘匿的取得を主目的とする。2024年以降、NATO加盟国およびウクライナへの関心を強めている。",
-      "日本にとっての重要性": "対日事案は現時点で未確認。Zimbra Collaboration SuiteやMicrosoft Outlook等のウェブメール基盤を利用する国内組織は、同種手口の潜在的標的となり得る。",
-      "最新の主要活動": "2026年7月23日のCISA共同アドバイザリAA26-204A（Zimbra WebmailゼロデイCVE-2025-66376悪用）、7月29日のProofpoint報告（Microsoft Outlook脆弱性の併用確認）以降、本報告期間（8月18日）中に新たな追加侵害事案は確認できず、監視継続。",
+      "日本にとっての重要性": "対日事案は現時点で未確認。Zimbra Collaboration SuiteやMicrosoft Outlook等のウェブメール基盤を利用する国内組織は、同種手口の潜在的標的となり得る。なお、本報告期間中に別件でZimbra Collaboration Suite（CVE-2026-73570、SNMP経由の未認証OSコマンドインジェクション）の実悪用がCERT Polskaにより確認されており（帰属未確定）、Zimbra基盤全般への注意が引き続き必要。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな追加侵害事案は確認できず。2026年7月23日のCISA共同アドバイザリAA26-204A（Zimbra WebmailゼロデイCVE-2025-66376悪用）以降、監視継続。",
       "情報源": [
         "CISA「Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite」AA26-204A (2026-07-23) - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
-        "The Record from Recorded Future News「Laundry Bear's webmail hackers had more in store after February, report says」(2026-07-29) - https://therecord.media/laundry-bear-webmail-hackers-outlook-bug"
+        "The Record from Recorded Future News「Laundry Bear's webmail hackers had more in store after February, report says」(2026-07-29) - https://therecord.media/laundry-bear-webmail-hackers-outlook-bug",
+        "SecurityWeek「Hackers Target Zimbra Servers in Active Exploitation Campaign」(2026年8月頃) - https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/"
       ]
     },
     {
@@ -43,9 +44,22 @@
       "カテゴリ": "国家支援型APT（諜報・出張者標的）",
       "戦略意図": "ロシア対外情報庁（SVR）の指揮下、出張中の外交官・研究者・企業幹部等の高価値標的に対する認証情報・通信内容の窃取を目的とした、物理接点（宿泊施設）を起点とする諜報活動。",
       "日本にとっての重要性": "海外出張中の日本人ビジネスパーソン・外交関係者・研究者も潜在的標的となり得る。渡航セキュリティ教育上の実務的な参考事例。",
-      "最新の主要活動": "2026年8月1日公表のホテル公衆Wi-Fiキャプティブポータル乗っ取り作戦「CaptiveCrunch」（RAT「CornFlake」配布）以降、本報告期間（8月18日）中の新たな追跡情報は確認できず、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな追跡情報は確認できず。2026年8月1日公表のホテル公衆Wi-Fiキャプティブポータル乗っ取り作戦「CaptiveCrunch」（RAT「CornFlake」配布）以降、監視継続。",
       "情報源": [
         "The Hacker News「Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware」(2026-08-01) - https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
+      ]
+    },
+    {
+      "属性": "不明（推定:ロシア語話者、帰属国不明）",
+      "アクター": "Operation CameraSwarm 実行者",
+      "カテゴリ": "IoT機器大量侵害（帰属未確定、犯罪または諜報目的の可能性）",
+      "戦略意図": "ロシア・ウクライナ及びCIS諸国の通信キャリア網に接続されたDahua製IPカメラの大量掌握。監視・偵察転用またはボットネット化が目的と推定。",
+      "日本にとっての重要性": "直接的な日本標的化は未確認。ただしDahua製品はグローバルに流通しており、同種手法の他地域への波及可能性に留意。IoTデバイスの大規模乗っ取りは通信キャリア網を経由するため、技術的重要性の高い事案として継続監視が必要。",
+      "最新の主要活動": "新規侵害：2026年8月20日、Hunt.io社が2026年6月17日〜7月22日（35日間）の活動実態を報告。ロシア・ウクライナを中心に14,530台超のDahua製IPカメラ・NVR等を侵害。攻撃者自身のサーバー設定不備により、researcher側が攻撃基盤一式（407MB、2,616ファイル）を回収。ツール内にロシア語コメントが残存。8月10日に各国CERT・Dahua PSIRTへ通報済み。",
+      "情報源": [
+        "SecurityWeek「Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia」(2026年8月頃) - https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
+        "Hunt.io「Operation CameraSwarm: Over 14,000 Dahua cameras compromised across Ukraine and Russia」(2026年8月頃) - https://hunt.io/blog/operation-cameraswarm-dahua-cameras-compromised",
+        "Security Affairs「Inside Operation CameraSwarm: How One Actor Took Over 14,000 Dahua Cameras」(2026年8月頃) - https://securityaffairs.com/197527/iot/inside-operation-cameraswarm-how-one-actor-took-over-14000-dahua-cameras.html"
       ]
     },
     {
@@ -53,9 +67,10 @@
       "アクター": "Salt Typhoon（別名：GhostEmperor、RedMike、Operator Panda、FamousSparrow、UNC5807）",
       "カテゴリ": "国家支援型APT（諜報・通信インフラ持続的侵害）",
       "戦略意図": "中国国家安全部（MSS）の指揮下、通信・政府・軍事・運輸・宿泊等のバックボーン／エッジルーターへの持続的アクセスを確保し、有事における通信傍受・妨害能力を含む戦略的インフラ支配を志向。",
-      "日本にとっての重要性": "対日組織への直接侵害は未確認だが、通信キャリア・ISP・大学等を標的とする手法は日本の同種インフラにも適用可能。Five Eyes諸国での継続的被害は同盟国たる日本にとっても情報共有・警戒の対象。",
-      "最新の主要活動": "2026年2月のFBIによる活動継続確認以降、本報告期間（8月18日）中の新規侵害事案は確認できず、公開活動未確認。監視継続。",
+      "日本にとっての重要性": "対日組織への直接侵害は未確認だが、通信キャリア・ISP・大学等を標的とする手法は日本の同種インフラにも適用可能。2025年8月、国家サイバー統括室（NCO）及び警察庁が本グループの活動について言及済み。Five Eyes諸国での継続的被害は同盟国たる日本にとっても情報共有・警戒の対象。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新規侵害事案は確認できず。2026年2月のFBIによる活動継続確認以降、公開活動未確認。監視継続。",
       "情報源": [
+        "サイバーセキュリティ戦略本部「サイバーセキュリティ2026（2025年度年次報告・2026年度年次計画）」(2026-07-31) - https://www.cyber.go.jp/pdf/policy/kihon-s/260731decision1.pdf",
         "SecurityWeek「China's Salt Typhoon Hacked Critical Infrastructure Globally for Years」 - https://www.securityweek.com/chinas-salt-typhoon-hacked-critical-infrastructure-globally-for-years/",
         "SecurityWeek「Salt Typhoon Targeting Old Cisco Vulnerabilities in Fresh Telecom Hacks」 - https://www.securityweek.com/salt-typhoon-targeting-old-cisco-vulnerabilities-in-fresh-telecom-hacks/"
       ]
@@ -65,13 +80,13 @@
       "アクター": "中国語話者アクター（DeepSeek+Hermes/OpenClaw自律型AIエージェント運用主体）",
       "カテゴリ": "非国家/国家関連不明（自律型AIエージェント駆動型APT）",
       "戦略意図": "当初は初期アクセスブローカー的・金銭目的の可能性が指摘されていたが、外国政府機関を標的とした自律攻撃への展開が確認されたことで、諜報目的または国家関連リソースへのアクセスを示唆する行動へと変化。",
-      "日本にとっての重要性": "Langflow、n8n、Marimo、NetScaler ADC/Gateway等をインターネット公開する国内組織全般が潜在的標的。自律型AIエージェント攻撃基盤は容易に他国の政府系インフラへ転用可能であり、日本の政府機関・重要インフラにとっても技術的先例として重要度が高い。原子力・エネルギー分野への標的拡大が確認されたことで、日本国内の同分野事業者にとっても参照すべき脅威モデルとなっている。",
-      "最新の主要活動": "targeting変化・新インフラ：2026年7月1〜4日、Hermes/OpenClawベースの自律型マルチエージェント攻撃基盤を用いて台湾政府機関ウェブサイト・重要インフラへの完全自律型侵入を実施（イスラエルDream Labが7月に発見、8月12日に詳細公表）。最大8体のサブエージェントを並列運用し、ブロックされる度に手法を自動的に切り替える適応的挙動を確認。85以上のドメイン・システムを侵害し政府情報漏えいも確認。「史上初の完全自律型対外国政府攻撃」と評価される。7月31日公表のTelegram経由DeepSeek操作による自律攻撃（8CVE悪用、460標的超）と同一系統の攻撃能力の応用とみられる。targeting変化（追加確認）：台湾デジタル発展部が2026年8月13日、上記7月の攻撃を公式に確認するとともに、関連するとみられる攻撃活動が原子力安全機関及び少なくとも7社のエネルギー企業にも及んだとセキュリティ企業Dreamが報告（二次標的での実際のアクセス範囲は未確認）。",
+      "日本にとっての重要性": "Langflow、n8n、Marimo、NetScaler ADC/Gateway等をインターネット公開する国内組織全般が潜在的標的。自律型AIエージェント攻撃基盤は容易に他国の政府系インフラへ転用可能であり、日本の政府機関・重要インフラにとっても技術的先例として重要度が高い。原子力・エネルギー分野への標的拡大が確認されたことで、日本国内の同分野事業者にとっても参照すべき脅威モデルとなっている。なお、本報告期間中に米当局が発表したSiemens S7 PLCへのAI生成攻撃ツールキャンペーン（下記別項）とは、AI悪用型OT/ICS攻撃という手法面での類似性が指摘されるが、帰属・関連性は未確認。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな確定情報は得られていない。2026年8月13日の台湾数位発展部による7月攻撃（活動期間7月1〜4日、4日間・12波）の公式確認、及びDream社による原子力安全機関・エネルギー企業7社超への二次的標的拡大の報告以降、大きな進展は確認されず。2026年8月20日付のThe Hacker News記事（Siemens PLC事案）内でも背景事例として言及されているが、新規の技術的詳細は含まれない。監視継続。",
       "情報源": [
         "Security Affairs「China-Linked Hackers Use AI Agents in Autonomous Attack on Taiwan」(2026-08-12) - https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-        "Cyber Magazine「China-Linked Autonomous Cyberattack on Taiwan Explained」(2026-08-13頃) - https://cybermagazine.com/news/china-linked-autonomous-cyberattack-on-taiwan-explained",
-        "The Hacker News「Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks」(2026-07-31) - https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-        "財経新聞「台湾政府機関にOpenClawなど悪用した4日間の自律型サイバー攻撃―原子力安全機関なども調査対象に」(2026-08-14) - https://www.zaikei.co.jp/article/20260814/865824.html"
+        "財経新聞「台湾政府機関にOpenClawなど悪用した4日間の自律型サイバー攻撃―原子力安全機関なども調査対象に」(2026-08-14) - https://www.zaikei.co.jp/article/20260814/865824.html",
+        "The Hacker News「AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure」（台湾事案言及箇所）(2026-08-20頃) - https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+        "セキュリティ対策Lab「台湾の政府機関にAIエージェント支援のサイバー攻撃」 - https://rocket-boys.co.jp/security-measures-lab/taiwan-government-ai-agent-cyberattack-personnel-data-leak/"
       ]
     },
     {
@@ -80,7 +95,7 @@
       "カテゴリ": "諜報活動（既知アクターへの帰属未確定）",
       "戦略意図": "中央アジア・南西アジア地域の政府機関（外務省、法執行機関、都市計画等）を標的とした情報収集。一帯一路関連国・国境地域における中国の影響力拡大と関連する可能性。",
       "日本にとっての重要性": "直接の対日事案なし。ただし中国の対中央アジア諜報活動の手法・インフラは、対日活動を含む中国サイバー諜報の全体像把握のための参照事例として有用。",
-      "最新の主要活動": "2026年8月1日のKaspersky公表（2025年1月以降、アフガニスタン・キルギス・タジキスタン・ウズベキスタン・カザフスタン・シリア等の政府機関を標的とした難読化バックドア「OctLurk」「SilkLurk」、プロキシユーティリティ「LurkProxy」の使用確認）以降、本報告期間（8月18日）中に新たな進展は確認できず、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな進展は確認できず。2026年8月1日のKaspersky公表（アフガニスタン・キルギス・タジキスタン・ウズベキスタン・カザフスタン・シリア等の政府機関への難読化バックドア使用確認）以降、監視継続。",
       "情報源": [
         "The Hacker News「Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk」(2026-08-01) - https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
       ]
@@ -91,7 +106,7 @@
       "カテゴリ": "サイバー犯罪（ランサムウェア、ゼロデイ調達能力あり）",
       "戦略意図": "金銭目的の二重恐喝。ただし複数のNデイ・ゼロデイ脆弱性を先行悪用する能力は、エクスプロイトブローカー等を介した国家アクター的リソースへのアクセスを示唆する。",
       "日本にとっての重要性": "GoAnywhere MFT、SmarterMail、N-central等、国内でも利用されるRMM/ファイル転送製品を標的としており、パッチ未適用の国内組織は潜在的標的となり得る。",
-      "最新の主要活動": "新規侵害・TTP変化：2026年8月中旬、従来のMedusaランサムウェアから新型「StormEncryptor」（C++製、拡張子.encrypted、ランサムノート「!!!README_FIRST!!!.txt」）へ移行したことをMicrosoftが確認。N-able N-central認証バイパス（CVE-2026-18577、8月2日開示・8月3日CISA KEV登録）を初期侵入経路として悪用したと推定。2026年4月以来の活動再開。本報告期間（8月18日）中の追加確認事案なし、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、追加確認事案なし。2026年8月中旬のMicrosoft確認（新型「StormEncryptor」への移行、N-able N-central認証バイパスCVE-2026-18577の悪用）以降、監視継続。",
       "情報源": [
         "BleepingComputer「New StormEncryptor ransomware used by former Medusa affiliate」(2026-08-12頃) - https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
         "Security Affairs「Storm-1175 Replaces Medusa With New StormEncryptor Ransomware」(2026-08-13) - https://securityaffairs.com/197119/malware/storm-1175-replaces-medusa-with-new-stormencryptor-ransomware.html",
@@ -104,7 +119,7 @@
       "カテゴリ": "国家支援型APT（諜報活動、中央アジア地域特化）",
       "戦略意図": "中央アジア政府機関からの情報収集を通じ、一帯一路関連地域における中国の経済的・戦略的プレゼンス拡大を情報面で下支えする狙いがあると評価される。ロシアの地域影響力低下を背景とした中国の情報活動強化の一環とみられる。",
       "日本にとっての重要性": "対日事案は現時点で未確認。ただしAI支援開発の痕跡を伴うモジュール型マルウェアの運用モデルは、他地域への転用可能性を含め技術動向として要注視。",
-      "最新の主要活動": "新規：Bitdefender Labsが、2025年後半から約1年間にわたり中央アジア複数国の政府機関を標的とした侵入キャンペーン「SilkParasite」を公表（2026年8月18日頃）。7種のモジュール型RAT（うち5種は新規確認：DriveSilkRAT、CookiETagRAT、NomadRAT、GoginRAT、NodeEdgeRAT）をDLLサイドローディングで展開。バックドア「BLOODALCHEMY」（ShadowPad/PlugX系譜）の使用が中国起源と評価される根拠。コードにAI支援開発の痕跡を確認（人間の専門的開発をAIが効率化した形跡）。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな進展は確認できず。2026年8月18日公表のBitdefender Labs報告（中央アジア複数国政府機関への1年間の侵入キャンペーン、7種のモジュール型RATのうち5種が新規確認、AI支援開発の痕跡あり）以降、監視継続。",
       "情報源": [
         "The Hacker News「SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs」(2026-08-18) - https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
         "BankInfoSecurity「China-Linked APT Uses AI to Optimize Hand-Built Malware」 - https://www.bankinfosecurity.com/china-linked-apt-uses-ai-to-optimize-hand-built-malware-a-32597"
@@ -116,8 +131,9 @@
       "カテゴリ": "国家支援型APT（サイバー犯罪型・外貨獲得目的、諜報活動含む）",
       "戦略意図": "国連制裁下での外貨獲得（暗号資産窃取）に加え、防衛・航空宇宙分野からの軍事関連技術情報収集を目的とした複合的作戦。",
       "日本にとっての重要性": "過去に日本の暗号資産交換業者を標的とした実績があり、国内の暗号資産関連事業者・防衛関連企業も潜在的標的となり得る。",
-      "最新の主要活動": "新規侵害・TTP変化：Windowsカーネルドライバのゼロデイ（CVE-2026-68820、AFD.sys Use-After-Free、権限昇格）を悪用したOperation Dream Jobキャンペーンで、フランス・ドイツ・ブラジル・インドの防衛/航空宇宙企業を標的に新型バックドア「Troy」を展開。Check Pointが7月28日に脆弱性報告、Microsoftが8月11日修正・CISAが同日KEV登録（連邦機関対応期限8月25日）。少なくとも5週間先行して悪用していたことが判明。FudModule 3.1ルートキットで90以上のETWプロバイダを無効化するなど検知回避能力も強化。侵害済みRoundcube/WordPress/PrestaShopサーバを中継インフラ「RelayShell」として悪用。本報告期間（8月18日）中の追加確認事案なし、監視継続。",
+      "最新の主要活動": "法的動向：Bybit社が2025年2月のハッキング（被害額約15億ドル、記録上最大の暗号資産窃取）を巡り、北朝鮮・偵察総局（RGB）・Lazarus Group及び身元不明の関係者20者を相手取り、2026年6月18日に米ワシントンD.C.連邦地裁へ民事訴訟を提起、資産の移転・処分を禁じる仮差止命令を取得。事案は非公開（封印）状態で進行し、2026年8月6日に一部情報が公開。本報告期間（8月20〜23日）中の新たな進展は確認されず。技術動向：Windowsカーネルドライバのゼロデイ（CVE-2026-68820、AFD.sys Use-After-Free）を悪用したOperation Dream Jobキャンペーン（フランス・ドイツ・ブラジル・インドの防衛/航空宇宙企業標的、新型バックドア「Troy」）は2026年8月11〜15日以降、追加確認事案なし。監視継続。",
       "情報源": [
+        "JinaCoin「バイビット、北朝鮮とラザルスを提訴──米裁判所が資産保全を命令」(2026年8月頃) - https://jinacoin.ne.jp/bybit-north-korea-20260810/",
         "The Hacker News「Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor」(2026-08-15頃) - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
         "Help Net Security「Lazarus hackers pair fake job offers with Windows zero-day exploit」(2026-08-12) - https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/",
         "CISA「CISA Adds Three Known Exploited Vulnerabilities to Catalog」(CVE-2026-68820) (2026-08-11) - https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog"
@@ -129,7 +145,7 @@
       "カテゴリ": "不祥事（国家サイバー部隊内部の統制崩壊・インサイダー事案）",
       "戦略意図": "該当なし。国家に対する外貨獲得任務からの逸脱・私的流用が疑われる事案であり、対外的な戦略意図は伴わない。",
       "日本にとっての重要性": "直接の対日影響はないが、北朝鮮の国家サイバー要員の忠誠・統制リスクを示す事例として、離反者による技術流出等の間接的リスクに留意。",
-      "最新の主要活動": "2026年7月12日の拘束事案報道（7月24〜25日国際報道）以降、本報告期間（8月18日）中に新たな進展は確認できず、事案終息状態を維持。監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな進展は確認できず。2026年7月12日の拘束事案報道（7月24〜25日国際報道）以降、事案終息状態を維持。監視継続。",
       "情報源": [
         "Daily NK（英語版）「North Korea busts elite hacking ring inside its own banks」(2026-07) - https://www.dailynk.com/english/north-korea-elite-bank-hacking-ring-arrested/",
         "CoinDesk「North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto」(2026-07-25) - https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto"
@@ -141,7 +157,7 @@
       "カテゴリ": "国家支援型APT（電子諜報）",
       "戦略意図": "政府・防衛関係者およびその家族を含む高価値標的に対する長期的な認証情報窃取・監視。信頼関係構築型のソーシャルエンジニアリングを主軸とする。",
       "日本にとっての重要性": "現時点で対日事案は未確認。2026年2月開戦のイラン戦争以降の中東情勢緊張継続に伴うグローバルな波及効果には留意。",
-      "最新の主要活動": "2026年7月21日のDarkAtlas社報告（LLMを用いたペルソナ生成型フィッシング、改良版TAMECATバックドア）以降、本報告期間（8月18日）中に新たな確認事案は得られておらず、公開活動未確認。監視継続。イラン・イスラエル間のサイバー紛争全体は継続中（イスラエル国家サイバー総局は2026年6月時点でイラン発攻撃が前年同月比約3倍に増加したと発表）。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな確認事案は得られておらず。2026年7月21日のDarkAtlas社報告（LLMを用いたペルソナ生成型フィッシング、改良版TAMECATバックドア）以降、公開活動未確認。イラン・イスラエル間のサイバー紛争全体は継続中。監視継続。",
       "情報源": [
         "Cyber Security News「APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials」(2026-07-21) - https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware/",
         "Wikipedia「Cyberwarfare during the 2026 Iran war」（継続更新） - https://en.wikipedia.org/wiki/Cyberwarfare_during_the_2026_Iran_war"
@@ -149,15 +165,17 @@
     },
     {
       "属性": "イラン（国家支援の疑い、推定・公式帰属未確定）",
-      "アクター": "米国水道・下水道インフラ攻撃キャンペーン主体（CyberAv3ngers系譜、推定）",
-      "カテゴリ": "国家支援型サイバー作戦（OT／重要インフラ攻撃）",
-      "戦略意図": "2026年イスラエル・イラン戦争（2月28日開戦）下における対米代理報復。重要インフラへの心理的圧力および、防御投資の乏しい中小規模事業者を狙った非対称攻撃。",
-      "日本にとっての重要性": "対日攻撃事案は未確認。ただし標的となっているUnitronics製PLC等のOT機器は日本国内インフラでも一部利用されており、手口の波及可能性に留意すべき。",
-      "最新の主要活動": "OT targeting：2026年7月27日以降、米国内の水道・下水道事業者を標的とした攻撃が拡大。8月5〜6日時点で少なくとも12州（ミネソタ、ジョージア、ミシガン、ニュージャージー、サウスダコタ等）で確認。ポンプ・バルブ等の遠隔操作機能喪失、ジョージア州クレイトン郡水道局（利用者30万人）で水圧低下・断水勧告発令。FBI/EPAが共同警報を発出（8月1日）。本報告期間（8月18日）時点で新たな拡大地域の追加確認はないが、根本原因・正式な攻撃主体の帰属は依然未確定であり監視継続。",
+      "アクター": "イラン関連OT攻撃キャンペーン主体（CyberAv3ngers系譜、推定、対米水道及び対英電力施設）",
+      "カテゴリ": "国家支援型サイバー作戦（OT／重要インフラ攻撃、標的国拡大）",
+      "戦略意図": "2026年イスラエル・イラン戦争（2月28日開戦）下における対米・対英代理報復。重要インフラへの心理的圧力および、防御投資の乏しい中小規模事業者を狙った非対称攻撃。標的国が米国のみならず英国にも拡大している可能性が新たに指摘されている。",
+      "日本にとっての重要性": "対日攻撃事案は未確認。ただし標的となっているUnitronics製PLC等のOT機器は日本国内インフラでも一部利用されており、手口の波及可能性に留意すべき。米英に続き同盟国への波及リスクとして、日本の重要インフラ事業者も情勢を注視する必要がある。",
+      "最新の主要活動": "targeting変化：2026年8月22〜23日、英Telegraph紙が、英国内の小規模発電施設がイラン関連アクターにより4日間稼働停止させられたと報道（発生時期は7月頃と推定）。英政府（DESNZ）は広域電力供給網への影響はなかったと説明、英国家サイバーセキュリティセンター（NCSC）が調査中。同時期に発生した米国12州の水道インフラへの攻撃との一連の作戦の可能性が報道で指摘されている。米国側の活動については、2026年8月5〜6日時点の12州拡大（ミネソタ、ジョージア、ミシガン、ニュージャージー、サウスダコタ等）以降、本報告期間中に新たな拡大地域の追加確認はない。正式な攻撃主体の帰属は依然未確定であり監視継続。",
       "情報源": [
+        "RedState「Iran-Linked Attack Knocks Out British Power Plant」(2026-08-23) - https://redstate.com/wardclark/2026/08/23/iran-linked-attack-knocks-out-british-power-plant-could-they-do-that-here-n2205961",
+        "Israel Hayom「Iran-linked hackers shut down UK power plant for 4 days」(2026-08-23) - https://www.israelhayom.com/2026/08/23/uk-power-plant-cyber-attack-iran/",
+        "informed, clearly「Iranian Hackers Shut UK Power Plant: 4-Day Attack Explained」(2026-08-23) - https://informedclearly.com/en/energy/61154/iranian-hackers-uk-power-plant-cyberattack-2026",
         "NPR「Cyberattacks on the U.S. water sector are exposing vulnerabilities during Iran war」(2026-08-12) - https://www.npr.org/2026/08/12/nx-s1-5927437/cyberattack-water-iran-war",
-        "CBS News「At least 12 states report cyberattacks on water systems possibly linked to Iran-backed hackers」(2026-08-06) - https://www.cbsnews.com/news/more-states-water-systems-cyberattacks-iran-backed-hackers/",
-        "Washington Post「Several states report cyberattacks as spy agencies suspect Iran targeting water」(2026-08-01) - https://www.washingtonpost.com/nation/2026/08/01/several-states-report-cyberattacks-spy-agencies-suspect-iran-targeting-water/"
+        "CBS News「At least 12 states report cyberattacks on water systems possibly linked to Iran-backed hackers」(2026-08-06) - https://www.cbsnews.com/news/more-states-water-systems-cyberattacks-iran-backed-hackers/"
       ]
     },
     {
@@ -166,11 +184,10 @@
       "カテゴリ": "国家によるサイバー作戦（攻撃的サイバー作戦・軍事目標支援型）",
       "戦略意図": "ロシアの民生・軍事供給網双方に利用される物流・Eコマース基盤を狙い、サイバー攻撃と精密物理攻撃（ドローン）を意図的に連携させることで戦場効果の増幅を図る。",
       "日本にとっての重要性": "直接的な対日影響はないが、サイバー・キネティック統合作戦のドクトリン形成事例として、有事における民間インフラの軍事目標化を巡る国際法上の議論の参照事例となる。",
-      "最新の主要活動": "2026年8月10〜11日・15日、ロシア最大のEコマース企業Wildberriesの決済インフラ・顧客対応チャネルを攻撃。8月16〜17日の大規模ドローン攻撃（約600機、ロシア側発表で「今年最大規模」）と連携させ、Wildberriesの物流拠点10か所中7か所をオフライン化したとHURが8月17日付で公式発表。サイバー攻撃で物理攻撃の効果を増幅させたことをウクライナが公式に認めた初の事例。本報告期間（8月18日）中の追加確認事案なし、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、追加確認事案なし。2026年8月10〜17日のロシア最大手Eコマース企業Wildberriesへの攻撃（決済インフラ・顧客対応チャネル）とドローン攻撃の連携作戦以降、監視継続。",
       "情報源": [
         "The Record from Recorded Future News「Ukraine says cyberattack hit Russian e-commerce giant Wildberries amid drone strikes」(2026-08-17) - https://therecord.media/russia-wildberries-cyberattack-ukraine",
-        "Kyiv Independent「Ukraine's HUR claims cyberattack on Wildberries, Russian sellers complain of more disruption」(2026-08-17) - https://kyivindependent.com/ukraines-hur-claims-cyberattack-on-wildberries-russian-sellers-complain-of-more-disruption/",
-        "Mezha「サイバー部隊がロシア通販大手ワイルドベリーズを攻撃、決済などに障害」(2026-08-17) - https://mezha.net/jp/bukvy/8fd44abb_cyber_corps_disrupts/"
+        "Kyiv Independent「Ukraine's HUR claims cyberattack on Wildberries, Russian sellers complain of more disruption」(2026-08-17) - https://kyivindependent.com/ukraines-hur-claims-cyberattack-on-wildberries-russian-sellers-complain-of-more-disruption/"
       ]
     },
     {
@@ -179,9 +196,37 @@
       "カテゴリ": "標的型侵入アクター（国家関連の可能性は排除できず、監視継続対象）",
       "戦略意図": "不明（諜報目的か金銭目的か未確定）。ゼロデイの事前入手能力からリソース潤沢な組織と推定される。認証情報・アクティブセッション・多要素認証シードの窃取により長期的かつステルス性の高いアクセス確保を志向。",
       "日本にとっての重要性": "現時点で対日事案の確認なし。ただしSonicWall SMA1000等の国内でも利用されるVPN/セキュアアクセス製品を標的としており、潜在的リスクは残る。",
-      "最新の主要活動": "2026年7月21日時点のSonicWall SMA1000ゼロデイ（CVE-2026-15409/15410）事前悪用に関する分析以降、本報告期間（8月18日）中に新たな追跡情報は確認できず、公開活動未確認。監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな追跡情報は確認できず。2026年7月21日時点のSonicWall SMA1000ゼロデイ（CVE-2026-15409/15410）事前悪用に関する分析以降、公開活動未確認。監視継続。",
       "情報源": [
         "The Hacker News「SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access」(2026-07-21) - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html"
+      ]
+    },
+    {
+      "属性": "不明（推定：国家関与不明、AI活用型能力開発）",
+      "アクター": "Siemens S7シリーズPLC標的型AI生成攻撃ツールキャンペーン主体",
+      "カテゴリ": "AI悪用型OT/ICS攻撃・偵察（帰属未確定）",
+      "戦略意図": "米国重要インフラ（水道・エネルギー・重要製造業・化学・食品農業・商業施設）向けSiemens S7シリーズPLCへの偵察・攻撃能力開発。当局は具体的な国家関与を明言していない。",
+      "日本にとっての重要性": "同種PLC・オープンソースライブラリ（snap7.dll／python-snap7）は日本国内の産業制御システムでも使用されており、露出資産の再点検が推奨される。生成AIがICS攻撃の専門知識障壁を引き下げている典型例として、日本の重要インフラ事業者にとっても参照すべき脅威モデル。",
+      "最新の主要活動": "新規侵害・新インフラ：2026年8月19日、NSA・CISA・FBI・DOE・EPAが共同アドバイザリ（AA26-231A）を発出し、生成AIによる正規監視ツール偽装のPythonエクスプロイトスクリプトを用いた偵察・能力開発活動を確認したと発表。S7comm経由でのPLCメモリ・ラダーロジック読み書きが可能。偵察にはCensys／ZoomEye等のスキャンサービスを利用。7月のミネソタ州水道施設OT攻撃、GE・Philips・Shell等40社超への攻撃との関連性が指摘されるが未確定。",
+      "情報源": [
+        "CISA「Defending Against an Active Threat to Siemens S7 Series PLCs」(AA26-231A) (2026-08-19) - https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+        "Cybersecurity Dive「AI-backed campaign targeting vulnerable Siemens S7 devices, CISA and FBI warn」(2026-08-20) - https://www.cybersecuritydive.com/news/ai-hackers-siemens-s7-devices-cisa-fbi/828321/",
+        "Help Net Security「US agencies warn of AI-powered attacks on Siemens industrial controllers」(2026-08-20) - https://www.helpnetsecurity.com/2026/08/20/usa-ai-attacks-siemens-s7-plcs-critical-infrastructure/"
+      ]
+    },
+    {
+      "属性": "不明（犯罪組織、RaaS、帰属国不明）",
+      "アクター": "The Gentlemen（Storm-2697）",
+      "カテゴリ": "サイバー犯罪（ランサムウェア・二重恐喝、AIツール悪用）",
+      "戦略意図": "金銭目的。2025年7月以降、77か国・580件超の被害を主張。製造業を最大の標的セクターとする。アフィリエイトによる生成AI（Claude Code）を用いた侵入自動化が確認され、攻撃実行の専門知識障壁が低下している点が特徴的。",
+      "日本にとっての重要性": "高。2026年8月21日、静岡県沼津市の産業機器メーカーAkatake Engineering（1971年設立、粉体ハンドリング技術）をリークサイトに掲載。日本の中堅・地方製造業への直接的な脅威として要注視。",
+      "最新の主要活動": "新規侵害（日本）：2026年8月21日、Akatake Engineeringをダークウェブリークサイトに掲載（具体的漏洩件数は本稿執筆時点で未公表）。TTP変化：2026年6月下旬以降、アフィリエイトとみられる攻撃者がAnthropic Claude Code（比較的ガードレールが弱いとされる旧バージョンのClaude Sonnet 4.6を使用）を用いて、豪州のエネルギー事業者、モーリシャスの金融サービス企業、タイ・米国の製造業者を含む少なくとも8組織への侵入をほぼ全工程で自動化したことがGambit Security社により2026年8月18日頃に報告された（インターネット公開VPNアプライアンスへの侵入、認証情報窃取、AD列挙、ファイアウォール設定変更、SQLデータベースの窃取準備）。",
+      "情報源": [
+        "RedPacket Security「[THEGENTLEMEN] - Ransomware Victim: Akatake Engineering」(2026-08-21) - https://www.redpacketsecurity.com/thegentlemen-ransomware-victim-akatake-engineering/",
+        "Ransomware.live「Victim: Akatake Engineering – thegentlemen」(2026-08-21) - https://ransomware.live/id/QWthdGFrZSBFbmdpbmVlcmluZ0B0aGVnZW50bGVtZW4=",
+        "Unit42（Palo Alto Networks）「No Manners Here: The Ruthless Rise of The Gentlemen Ransomware」(2026-07-10) - https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+        "CyberPress「Threat Actors Use Claude Code, Codex and DeepSeek AI to Power Cyberattacks」(2026年8月頃) - https://cyberpress.org/threat-actors-use-claude-code-codex-and-deepseek-ai/",
+        "Cyber Security News「Claude Code Helps Ransomware Operator Steal LDAP Passwords, Backdoor VPNs and Exfiltrate SQL Databases」(2026年8月頃) - https://cybersecuritynews.com/claude-code-helps-ransomware-operator/"
       ]
     },
     {
@@ -190,10 +235,9 @@
       "カテゴリ": "サイバー犯罪（データ窃取・二重恐喝型）",
       "戦略意図": "企業から顧客・従業員情報等を窃取し、暴露をちらつかせて金銭を要求する恐喝手法を主軸とする。ファイル暗号化よりデータ窃取・暴露を重視する傾向。",
       "日本にとっての重要性": "高。日本の冷凍食品・物流大手ニチレイグループへの攻撃について犯行を主張しており、サプライチェーン全体への波及影響が継続的に確認されている。",
-      "最新の主要活動": "被害確定：2026年8月10日、ニチレイから窃取したとするデータ（20万件超のファイル）をリークサイトで公開。8月14日、ニチレイが従業員の個人情報（氏名・生年月日・社用メールアドレス・従業員番号・人事労務情報等）の漏えいの恐れを正式発表（第6報）。国内グループ会社の従業員データも対象に含まれる。本報告期間（8月18日）中の追加確認事案なし、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、新たな追加確認事案なし。2026年8月14日のニチレイによる正式発表（従業員の個人情報漏えいの恐れ、氏名・生年月日・社用メールアドレス・従業員番号・人事労務情報等）以降、監視継続。",
       "情報源": [
-        "note（ももんが）「【週次セキュリティニュース】2026年8月第3週｜気になる国内インシデント5選」(2026-08-17) - https://note.com/momonga_cybersec/n/n17de956cd5c5",
-        "セキュリティ対策Lab「ニチレイ 第6報公表」(2026-08-17) - https://rocket-boys.co.jp/security-measures-lab/"
+        "note（ももんが）「【週次セキュリティニュース】2026年8月第3週｜気になる国内インシデント5選」(2026-08-17) - https://note.com/momonga_cybersec/n/n17de956cd5c5"
       ]
     },
     {
@@ -202,7 +246,7 @@
       "カテゴリ": "サイバー犯罪（データ恐喝、ゼロデイ悪用能力あり）",
       "戦略意図": "企業の設計・製造機密を含む機密データを窃取し、暴露をちらつかせて金銭を要求する大規模データ恐喝を組織的に展開。",
       "日本にとっての重要性": "PTC Windchill/FlexPLM等の製品ライフサイクル管理（PLM）システムを標的としており、同種システムを利用する日本の製造業も潜在的標的。過去にはMOVEit等のサプライチェーン脆弱性でも日本企業が被害を受けた実績がある。",
-      "最新の主要活動": "新規侵害：PTC Windchill/FlexPLMの脆弱性（CVE-2026-12569、重大な入力検証不備）を悪用し、Shell・General Electric・Philips等43組織を標的としたデータ恐喝キャンペーンを展開。JSP Webシェルにより設計図・技術図面・施設写真等を窃取し、Shellから89GBのデータ窃取を主張。CISA・独BSIが緊急警告を発出。8月17日時点でPhilipsは事案収束、Shell・GEは調査継続中。本報告期間（8月18日）中の追加確認事案なし、監視継続。",
+      "最新の主要活動": "本報告期間（8月20〜23日）中、追加確認事案なし。PTC Windchill/FlexPLMの脆弱性（CVE-2026-12569）を悪用したShell・General Electric・Philips等43組織を標的としたデータ恐喝キャンペーンについて、8月17日時点でPhilipsは事案収束、Shell・GEは調査継続中との情報以降、進展なし。監視継続。",
       "情報源": [
         "Weekly Review（WiseGuru）「Weekly Review, 2026-08-17」 - https://buttondown.com/WiseGuru/archive/weekly-review-2026-08-17/"
       ]
